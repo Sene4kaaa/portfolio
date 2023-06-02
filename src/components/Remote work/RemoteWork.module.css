@@ -1,0 +1,13 @@
+.remoteWorkBlock {
+    height: 30vh;
+    background-color: cadetblue;
+}
+
+.remoteWorkContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: #FFFFFFBA;
+}

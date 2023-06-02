@@ -1,0 +1,13 @@
+.footerBlock {
+    height: 30vh;
+    background-color: khaki;
+}
+
+/*.footerContainer {*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*}*/
+
+.title {
+    background-color: #FFFFFFBA;
+}
