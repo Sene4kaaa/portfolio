@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Contacts.module.css'
-import styleContainer from '../../common/Styles/Container.module.css'
+import styleContainer from '../../common/styles/Container.module.css'
 import {Form} from "./Form/Form";
 
 

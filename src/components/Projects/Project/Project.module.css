@@ -1,20 +1,46 @@
 .project {
-    width: 300px;
+    width: 40%;
+    max-width: 400px;
+    height: 300px;
     background-color: #FFFFFFBA;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    min-height: 100px;
+
 }
 
 .icon {
-    height: 160px;
-    width: 160px;
+    border: 1px solid chartreuse;
+    height: 100%;
+    width: 100%;
     background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*object-fit: cover*/
 }
 
 
-.description {
-    background-color: white;
+.tittle {
+    text-align: start;
+    background-color: red;
+    width: 100%;
 
+}
+
+.description {
+    text-align: start;
+    background-color: red;
+    width: 100%;
+
+}
+
+.title_description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
 }

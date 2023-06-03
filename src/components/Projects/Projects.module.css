@@ -1,11 +1,21 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: cornflowerblue;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
 }
 
 .projectsContainer {
     flex-direction: column;
-    justify-content: flex-start;
+    border: 1px solid green;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 3;
 }
 
 .title {
@@ -13,9 +23,12 @@
 }
 
 .projects {
+    flex: 9;
     border: 1px solid crimson;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 20px;
     flex-wrap: wrap;
 }
+

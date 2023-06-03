@@ -14,10 +14,10 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
-            {/*<Projects/>*/}
-            {/*<RemoteWork/>*/}
-            {/*<Contacts/>*/}
-            {/*<Footer/>*/}
+            <Projects/>
+            <RemoteWork/>
+            <Contacts/>
+            <Footer/>
         </div>
     );
 }

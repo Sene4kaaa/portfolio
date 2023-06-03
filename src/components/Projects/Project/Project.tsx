@@ -12,10 +12,16 @@ export const Project = (props: ProjectPropsType) => {
             <div className={s.icon}>
                 <button>Watch</button>
             </div>
-            <h3>{props.title}</h3>
-            <span className={s.description}>
-                {props.description}
-            </span>
+            <div className={s.title_description}>
+                <h3 className={s.tittle}>
+                    {props.title}
+                </h3>
+                <p className={s.description}>
+                    {props.description}
+                </p>
+
+            </div>
+
         </div>
     )
 }

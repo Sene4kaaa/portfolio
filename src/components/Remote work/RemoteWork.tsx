@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './RemoteWork.module.css'
-import styleContainer from '../../common/Styles/Container.module.css'
+import styleContainer from '../../common/styles/Container.module.css'
 
 
 
@@ -8,7 +8,10 @@ export const RemoteWork = () => {
     return (
         <div className={s.remoteWorkBlock}>
             <div className={`${styleContainer.container} ${s.remoteWorkContainer} `}>
-                <h2 className={s.title}>Looking into remote work options</h2>
+                <div className={s.title}>
+                <h2>Looking into remote work options</h2>
+
+                </div>
                 <button>Hire Me</button>
             </div>
         </div>
