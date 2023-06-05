@@ -1,13 +1,23 @@
 .footerBlock {
-    height: 30vh;
     background-color: khaki;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
-/*.footerContainer {*/
-/*    flex-direction: column;*/
-/*    justify-content: flex-start;*/
-/*}*/
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 .title {
     background-color: #FFFFFFBA;
+}
+
+.blockContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 350px;
 }

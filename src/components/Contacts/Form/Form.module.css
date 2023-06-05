@@ -1,4 +1,14 @@
 .formContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+
+}
+.firstInput {
+
+}
+
+.secondInput {
+    padding-top: 10px;
+}
+
+.textarea {
+padding-top: 10px;
 }

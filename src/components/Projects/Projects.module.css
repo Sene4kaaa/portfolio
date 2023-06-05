@@ -1,5 +1,5 @@
 .projectsBlock {
-    min-height: 100vh;
+    min-height: 50vh;
     background-color: cornflowerblue;
     display: flex;
     justify-items: center;

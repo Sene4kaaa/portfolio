@@ -1,14 +1,17 @@
 .remoteWorkBlock {
-    height: 30vh;
     background-color: cadetblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .remoteWorkContainer {
     flex-direction: column;
     justify-content: flex-start;
-
 }
 
 .title {
     background-color: #FFFFFFBA;
+}
+.button {
+    margin-top: 40px;
 }

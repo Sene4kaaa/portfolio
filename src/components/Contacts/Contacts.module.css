@@ -1,6 +1,8 @@
 .contactsBlock {
-    height: 100vh;
-    background-color: darksalmon;
+    min-height: 20vh;
+    background-color: coral;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .contactsContainer {
@@ -10,4 +12,13 @@
 
 .title {
     background-color: #FFFFFFBA;
+}
+
+.form {
+    background-color: darksalmon;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 20px;
 }
