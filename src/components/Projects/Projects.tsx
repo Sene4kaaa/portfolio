@@ -12,8 +12,9 @@ export const Projects = () => {
                   <h2 className={s.title}>Projects</h2>
               </div>
                 <div className={`${s.projects}`}>
-                    <Project title={'Social Network'} description={'Blablabalba ldadbavwb vwrrwvrwv'}/>
-                    <Project title={'Todolist'} description={'Blablabalba ldadbavwb vwrrwvrwv'}/>
+                    <Project title={'Social Network'} description={'Project description'}/>
+                    <Project title={'Todolist'} description={'Project description'}/>
+                    <Project title={'Portfolio'} description={'Project description'}/>
                 </div>
             </div>
         </div>
