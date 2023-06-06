@@ -15,8 +15,14 @@
 }
 
 .form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: darksalmon;
     margin-top: 20px;
+    gap: 10px;
+
 }
 
 .button {

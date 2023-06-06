@@ -17,9 +17,9 @@ export const Footer = () => {
                     <Block/>
                     <Block/>
                 </div>
-                <div>
+                <span>
                     <h2 className={s.title}>© 2023 All rights reserved</h2>
-                </div>
+                </span>
             </div>
         </div>
 

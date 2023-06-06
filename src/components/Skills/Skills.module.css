@@ -18,7 +18,8 @@
     border: 1px solid crimson;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 20px;
+    box-sizing: border-box;
 }
