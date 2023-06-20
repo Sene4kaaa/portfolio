@@ -11,7 +11,7 @@ export const Projects = () => {
             <div className={`${styleContainer.container} ${s.projectsContainer} `}>
                 <Title title={'Projects'}/>
                 <div className={`${s.projects}`}>
-                    <Project title={'Social Network'} description={'Project description'}/>
+                    <Project title={'Social Network'} description={'Project descriptdsav savsdvdsvsgvsgfvvgfgvf gf fg svgs  ds gdssdvdsvdsvsdvdsvdsvdsvdfbbfdfb fbfd bf fb db fd bfd fdb fbd fdb fdb fdbs  svdds vsion'}/>
                     <Project title={'Todolist'} description={'Project description'}/>
                     <Project title={'Portfolio'} description={'Project description'}/>
                 </div>
