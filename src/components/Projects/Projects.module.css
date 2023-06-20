@@ -1,6 +1,6 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: cornflowerblue;
+    background-color: #212529;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -14,22 +14,20 @@
     justify-content: space-between;
 }
 
-.item {
-    flex: 3;
-}
-
-.title {
-    background-color: #FFFFFFBA;
-}
 
 .projects {
     flex: 9;
     border: 1px solid crimson;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
+@media screen and (max-width: 655px) {
+    .projects {
+        justify-content: center;
+    }
+}

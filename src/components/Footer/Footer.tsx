@@ -2,24 +2,21 @@ import React from 'react';
 import s from './Footer.module.css'
 import {Block} from "./Block/Block";
 import styleContainer from "../../common/styles/Container.module.css";
+import {Title} from "../../common/components/title/Title";
 
 
 export const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footerContainer} `}>
-                <div>
-                    <h2 className={s.title}>Andrew Senkevich</h2>
-                </div>
+                <Title title={'Andrew Senkevich'}/>
                 <div className={`${styleContainer.container} ${s.blockContainer} `}>
                     <Block/>
                     <Block/>
                     <Block/>
                     <Block/>
                 </div>
-                <span>
-                    <h2 className={s.title}>© 2023 All rights reserved</h2>
-                </span>
+                <span className={s.title}>© 2023 All rights reserved</span>
             </div>
         </div>
 
