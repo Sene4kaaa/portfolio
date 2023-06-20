@@ -1,16 +1,23 @@
 import React from 'react';
 import s from './Project.module.css'
 
-type ProjectPropsType = {
+export type ProjectPropsType = {
     title: string
     description: string
+    style: StyleType
 }
+
+export  type StyleType = {
+    color: string
+    backgroundImage: string
+}
+
 
 export const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.project}>
             <div className={s.imgAndAhref}>
-                <img src={''} className={s.icon}></img>
+                <div className={s.icon} style={props.style}></div>
                 <a href='' className={s.watch}>Watch</a>
             </div>
             <div className={s.title_description}>
