@@ -6,6 +6,12 @@ import {Title} from "../../common/components/title/Title";
 
 
 export const Projects = () => {
+
+    // const socialNetwork = {
+    //     color: 'blue',
+    //     backgroundImage: 'url(' + imgUrl + ')',
+    // };
+
     return (
         <div className={s.projectsBlock}>
             <div className={`${styleContainer.container} ${s.projectsContainer} `}>
@@ -13,7 +19,7 @@ export const Projects = () => {
                 <div className={`${s.projects}`}>
                     <Project title={'Social Network'} description={'Project descriptdsav savsdvdsvsgvsgfvvgfgvf gf fg svgs  ds gdssdvdsvdsvsdvdsvdsvdsvdfbbfdfb fbfd bf fb db fd bfd fdb fbd fdb fdb fdbs  svdds vsion'}/>
                     <Project title={'Todolist'} description={'Project description'}/>
-                    <Project title={'Portfolio'} description={'Project description'}/>
+                    {/*<Project title={'Portfolio'} description={'Project description'}/>*/}
                 </div>
             </div>
         </div>
