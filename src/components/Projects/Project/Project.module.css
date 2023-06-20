@@ -29,6 +29,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+.icon::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
 }
 
 .watch {
@@ -38,8 +50,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 1;
+    text-decoration: none;
 
+}
 
+.watch:hover {
+    text-decoration: underline #f5df4e;
 }
 
 .title_description {
