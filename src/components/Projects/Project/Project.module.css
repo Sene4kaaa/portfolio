@@ -1,7 +1,7 @@
 .project {
     min-height: 300px;
     min-width: 250px;
-    background-color: #FFFFFFBA;
+    background-color: #343a40;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,25 +31,34 @@
     color: white;
 }
 
-
-.tittle {
-    text-align: start;
-    background-color: red;
-    width: 100%;
-
-}
-
-.description {
-    text-align: start;
-    background-color: red;
-    width: 100%;
-
-}
-
 .title_description {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 10px;
+    padding: 25px 20px;
 }
+
+.tittle {
+    text-align: start;
+    /*background-color: #343a40;*/
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    color: #fff;
+}
+
+.description {
+    text-align: start;
+    /*background-color: #343a40;*/
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+
+}
+

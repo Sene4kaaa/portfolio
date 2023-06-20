@@ -15,7 +15,7 @@
 }
 
 .skills {
-    border: 1px solid crimson;
+    /*border: 1px solid crimson;*/
     width: 100%;
     display: flex;
     justify-content: space-between;
