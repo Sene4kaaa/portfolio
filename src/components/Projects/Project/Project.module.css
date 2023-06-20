@@ -41,7 +41,6 @@
 
 .tittle {
     text-align: start;
-    /*background-color: #343a40;*/
     width: 100%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
@@ -52,7 +51,6 @@
 
 .description {
     text-align: start;
-    /*background-color: #343a40;*/
     width: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
