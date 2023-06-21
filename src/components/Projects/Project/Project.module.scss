@@ -3,7 +3,7 @@
 .project {
   min-height: 300px;
   min-width: 250px;
-  background-color:$bgSecondColor;
+  background-color: $bgSecondColor;
   text-align: center;
   max-width: 300px;
   width: 100%;
@@ -14,7 +14,6 @@
     position: relative;
     /*border: 1px solid chartreuse;*/
     width: 100%;
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,6 +26,7 @@
       background-position: center;
       background-repeat: no-repeat;
       position: relative;
+
       &::before {
         position: absolute;
         content: '';
@@ -41,8 +41,8 @@
 
 
     .watch {
-      background-color: #343a40;
-      color: white;
+      background-color: $bgSecondColor;
+      color: $textColor;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -52,7 +52,7 @@
     }
 
     .watch:hover {
-      text-decoration: underline #f5df4e;
+      text-decoration: underline $primaryColor;
     }
   }
 
@@ -72,7 +72,7 @@
       font-size: 18px;
       letter-spacing: 1px;
       margin: 0 0 5px;
-      color: #fff;
+      color: $textColor;
     }
 
     .description {
@@ -82,7 +82,7 @@
       line-height: 1.8;
       font-weight: 400;
       font-size: 14px;
-      color: #fff;
+      color: $textColor;
       word-break: break-word;
     }
   }
