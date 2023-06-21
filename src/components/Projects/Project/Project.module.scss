@@ -1,4 +1,5 @@
 @import "src/common/styles/sass/Variables";
+@import "src/common/styles/sass/Mixins";
 
 .project {
   min-height: 300px;
@@ -80,11 +81,12 @@
     .description {
       text-align: start;
       width: 100%;
-      font-family: 'Poppins', sans-serif;
-      line-height: 1.8;
-      font-size: 14px;
+      //font-family: 'Poppins', sans-serif;
+      //line-height: 1.8;
+      //font-size: 14px;
+      //color: $textColor;
+      @include text($fontFamily, 1.8, 14px);
       font-weight: 400;
-      color: $textColor;
       word-break: break-word;
     }
   }

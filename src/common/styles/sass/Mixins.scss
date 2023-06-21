@@ -1,8 +1,8 @@
 @import "./Variables";
 
 @mixin text($fontFamily,$lineHeight,$fontSize) {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.8;
-  font-size: 14px;
+  font-family:$fontFamily;
+  line-height: $lineHeight;
+  font-size: $fontSize;
   color: $textColor;
 }
