@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.de66ca0a.css",
-    "main.js": "/portfolio/static/js/main.f834844c.js",
+    "main.css": "/portfolio/static/css/main.d89fa49b.css",
+    "main.js": "/portfolio/static/js/main.ddab2bf7.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.a9e6c5f802e9e3b92ec0.jpg",
+    "static/media/socialNetwork.jpg": "/portfolio/static/media/socialNetwork.bbdb54d79943d3dc062c.jpg",
+    "static/media/to-do-list.jpg": "/portfolio/static/media/to-do-list.f795ae3e51c979fad76e.jpg",
+    "static/media/github-svgrepo-com.svg": "/portfolio/static/media/github-svgrepo-com.8d1bc524d64f25bee143d25b34c557ac.svg",
+    "static/media/instagram-1-svgrepo-com.svg": "/portfolio/static/media/instagram-1-svgrepo-com.a0a9a83448ddb5827d70493a84d37806.svg",
+    "static/media/telegram-logo-svgrepo-com.svg": "/portfolio/static/media/telegram-logo-svgrepo-com.399dc03a668798461237e0ddc6ae0fa4.svg",
     "index.html": "/portfolio/index.html",
-    "main.de66ca0a.css.map": "/portfolio/static/css/main.de66ca0a.css.map",
-    "main.f834844c.js.map": "/portfolio/static/js/main.f834844c.js.map",
+    "static/media/linkedin-svgrepo-com.svg": "/portfolio/static/media/linkedin-svgrepo-com.c341cc1c307221b0fe42599c619ceeaf.svg",
+    "main.d89fa49b.css.map": "/portfolio/static/css/main.d89fa49b.css.map",
+    "main.ddab2bf7.js.map": "/portfolio/static/js/main.ddab2bf7.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de66ca0a.css",
-    "static/js/main.f834844c.js"
+    "static/css/main.d89fa49b.css",
+    "static/js/main.ddab2bf7.js"
   ]
 }
