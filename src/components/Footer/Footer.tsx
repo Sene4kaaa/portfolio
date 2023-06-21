@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
 import {Block} from "./Block/Block";
 import styleContainer from "../../common/styles/Container.module.css";
 import {Title} from "../../common/components/title/Title";

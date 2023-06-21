@@ -1,0 +1,32 @@
+@import "src/common/styles/sass/Variables";
+
+.footerBlock {
+  background-color: $bgSecondColor;
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .blockContainer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      max-width: 350px;
+    }
+
+    .title {
+      background-color: $primaryColor;
+      font-family: $titleFontFamily;
+    }
+  }
+}
+
+
+
+
+
+
