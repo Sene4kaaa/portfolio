@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Project.module.css'
+import s from './Project.module.scss'
 
 export type ProjectPropsType = {
     title: string
@@ -27,7 +27,6 @@ export const Project = (props: ProjectPropsType) => {
                 <span className={s.description}>
                     {props.description}
                 </span>
-
             </div>
 
         </div>
