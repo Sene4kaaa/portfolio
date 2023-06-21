@@ -1,4 +1,5 @@
 @import "src/common/styles/sass/Variables";
+@import "src/common/styles/sass/Mixins";
 
 .nav {
   /*border: 1px solid crimson;*/
@@ -7,6 +8,7 @@
   justify-content: space-evenly;
 
   & a {
+    @include text($titleFontFamily, 1.2, 20px);
     color: $bgColor;
     text-decoration: none;
   }
