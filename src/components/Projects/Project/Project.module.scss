@@ -27,17 +27,6 @@
       position: relative;
     }
 
-    .icon::before {
-      position: absolute;
-      content: '';
-      background-color: black;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      opacity: 0.4;
-
-    }
 
     .watch {
       background-color: #343a40;
@@ -48,7 +37,6 @@
       transform: translate(-50%, -50%);
       z-index: 1;
       text-decoration: none;
-
     }
 
     .watch:hover {
@@ -64,6 +52,7 @@
     padding: 25px 20px;
     align-items: flex-start;
     flex-wrap: wrap;
+
     .tittle {
       text-align: start;
       width: 100%;
@@ -85,14 +74,19 @@
       word-break: break-word;
     }
   }
-
-
 }
 
 
-
-
-
+.icon::before {
+  position: absolute;
+  content: '';
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.4;
+}
 
 
 
