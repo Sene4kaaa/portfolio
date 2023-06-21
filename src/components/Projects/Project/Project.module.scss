@@ -69,10 +69,12 @@
       text-align: start;
       width: 100%;
       font-family: 'Josefin Sans', sans-serif;
+      line-height: 1.2;
       font-size: 18px;
       letter-spacing: 1px;
-      margin: 0 0 5px;
       color: $textColor;
+      margin: 0 0 5px;
+
     }
 
     .description {
@@ -80,8 +82,8 @@
       width: 100%;
       font-family: 'Poppins', sans-serif;
       line-height: 1.8;
-      font-weight: 400;
       font-size: 14px;
+      font-weight: 400;
       color: $textColor;
       word-break: break-word;
     }
