@@ -1,5 +1,5 @@
 import React from "react";
-import s from "../title/Title.module.css"
+import s from "./Title.module.scss"
 
 
 export type TitlePropsType = {
