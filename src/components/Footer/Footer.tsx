@@ -44,6 +44,5 @@ export const Footer = () => {
                 <span className={s.title}>© 2023 All rights reserved</span>
             </div>
         </div>
-
     )
 }
