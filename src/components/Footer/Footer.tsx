@@ -36,7 +36,7 @@ export const Footer = () => {
             <div className={`${styleContainer.container} ${s.footerContainer} `}>
                 <Title title={'Andrew Senkevich'}/>
                 <div className={`${styleContainer.container} ${s.blockContainer} `}>
-                    <Block style={insta}/>
+                    <Block style={insta} />
                     <Block style={telega}/>
                     <Block style={gitHub}/>
                     <Block style={linkIN}/>
