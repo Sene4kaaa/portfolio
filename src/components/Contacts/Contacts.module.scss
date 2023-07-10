@@ -22,8 +22,14 @@
       .form input, .form textarea {
         width: 100%;
       }
+
+      .input {
+        background-color: silver;
+      }
+
       .textarea {
         resize: none;
+        background-color: silver;
       }
 
       .button {

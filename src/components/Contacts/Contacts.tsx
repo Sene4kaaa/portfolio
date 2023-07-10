@@ -10,8 +10,8 @@ export const Contacts = () => {
             <div className={`${styleContainer.container} ${s.contactsContainer} `}>
                 <Title title={'Contacts'}/>
                 <form className={s.form}>
-                    <input type={"text"}/>
-                    <input type={"text"}/>
+                    <input type={"text"} className={s.input}/>
+                    <input type={"text"} className={s.input}/>
                     <textarea className={s.textarea}/>
                     <button type={"submit"} className={s.button}>Send</button>
                 </form>
