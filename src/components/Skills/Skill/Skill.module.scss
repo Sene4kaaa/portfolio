@@ -11,6 +11,7 @@
     word-break: break-word;
     padding: 20px;
     box-sizing: border-box;
+    margin: 6px;
     .icon {
         height: 60px;
         width: 60px;
@@ -32,7 +33,7 @@
     .description {
         text-align: start;
         width: 100%;
-        padding: 20px;
+
 
         @include text($textFontFamily, 1.8, 14px);
         font-weight: 400;
