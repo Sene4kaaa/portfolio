@@ -4,6 +4,7 @@ import styleContainer from '../../common/styles/Container.module.css'
 import {Title} from "../../common/components/title/Title";
 
 
+
 export const RemoteWork = () => {
     return (
         <div className={s.remoteWorkBlock}>
