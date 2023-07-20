@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Contacts.module.scss'
-import styleContainer from '../../common/styles/Container.module.css'
+import styleContainer from '../../common/styles/Container.module.scss'
 import {Title} from "../../common/components/title/Title";
 
 
@@ -13,7 +13,7 @@ export const Contacts = () => {
                     <input type={"text"} className={s.input}/>
                     <input type={"text"} className={s.input}/>
                     <textarea className={s.textarea}/>
-                    <button type={"submit"} className={s.button}>Send</button>
+                    <button type={"submit"} /*className={s.button}*/>Send</button>
                 </form>
 
             </div>
