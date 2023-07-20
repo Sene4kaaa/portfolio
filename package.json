@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Sene4kaaa.github.io/portfolio",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",

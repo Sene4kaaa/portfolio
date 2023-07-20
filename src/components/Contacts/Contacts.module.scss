@@ -22,6 +22,10 @@
       margin-top: 20px;
       gap: 10px;
 
+      .name {
+        color: $primaryColor;
+      }
+
       .form input, .form textarea {
         width: 100%;
       }
@@ -40,8 +44,10 @@
         @extend .btn;
         max-width: 50%;
         background-color: $bgSecondColor;
+
         &:hover {
           color: $bgColor;
+
           &::after {
             height: 100%;
           }
