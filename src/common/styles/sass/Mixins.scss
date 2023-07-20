@@ -19,3 +19,9 @@
   align-items: $alignItems;
   flex-wrap: $wrap;
 }
+
+@mixin bgSettings(){
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat ;
+}
