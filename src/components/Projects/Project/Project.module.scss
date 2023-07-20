@@ -73,7 +73,7 @@
       //line-height: 1.2;
       //font-size: 18px;
       //color: $textColor;
-      @include text($titleFontFamily, 1.2, 18px);
+      @include text($titleFontFamily,18px, 1.2, 700);
       letter-spacing: 1px;
       margin: 0 0 5px;
 
@@ -86,7 +86,7 @@
       //line-height: 1.8;
       //font-size: 14px;
       //color: $textColor;
-      @include text($textFontFamily, 1.8, 14px);
+      @include text($textFontFamily, 14px, 1.8, 700);
       font-weight: 400;
       word-break: break-word;
     }

@@ -8,7 +8,7 @@
   justify-content: space-evenly;
 
   & a {
-    @include text($titleFontFamily, 1.2, 20px);
+    @include text($titleFontFamily,20px, 1.2, 700);
     color: $bgColor;
     text-decoration: none;
   }

@@ -24,7 +24,7 @@
         text-align: center;
         width: 100%;
 
-        @include text($titleFontFamily, 1.2, 18px);
+        @include text($titleFontFamily,18px, 1.2, 700);
         letter-spacing: 2px;
         margin: 10px 0 5px;
 
@@ -35,7 +35,7 @@
         width: 100%;
 
 
-        @include text($textFontFamily, 1.8, 14px);
+        @include text($textFontFamily,14px, 1.8, 700);
         font-weight: 400;
         word-break: break-word;
     }
