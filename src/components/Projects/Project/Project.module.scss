@@ -1,5 +1,6 @@
 @import "src/common/styles/sass/Variables";
 @import "src/common/styles/sass/Mixins";
+@import "src/common/components/button/Button.module";
 
 .project {
   min-height: 300px;
@@ -42,7 +43,17 @@
 
 
     .watch {
-      background-color: $bgSecondColor;
+      @extend .btn;
+      width: 30%;
+
+      &:hover {
+        color: $bgColor;
+
+        &::after {
+          height: 100%;
+        }
+      }
+
       color: $textColor;
       position: absolute;
       top: 50%;
@@ -69,11 +80,7 @@
     .tittle {
       text-align: start;
       width: 100%;
-      //font-family: 'Josefin Sans', sans-serif;
-      //line-height: 1.2;
-      //font-size: 18px;
-      //color: $textColor;
-      @include text($titleFontFamily,18px, 1.2, 700);
+      @include text($titleFontFamily, 18px, 1.2, 700);
       letter-spacing: 1px;
       margin: 0 0 5px;
 
@@ -82,10 +89,6 @@
     .description {
       text-align: start;
       width: 100%;
-      //font-family: 'Poppins', sans-serif;
-      //line-height: 1.8;
-      //font-size: 14px;
-      //color: $textColor;
       @include text($textFontFamily, 14px, 1.8, 700);
       font-weight: 400;
       word-break: break-word;

@@ -1,6 +1,8 @@
 @import "src/common/styles/sass/Variables";
 @import "src/common/styles/sass/Mixins";
 @import "src/common/components/button/Button.module";
+
+
 .contactsBlock {
   min-height: 20vh;
   background-color: $bgSecondColor;
@@ -37,12 +39,7 @@
         @include container();
         @extend .btn;
         max-width: 50%;
-
-        //margin-bottom: 10px;
         background-color: $bgSecondColor;
-        //height: 30px;
-        //color:  $bgColor;
-
         &:hover {
           color: $bgColor;
           &::after {
