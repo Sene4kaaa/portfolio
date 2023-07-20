@@ -4,7 +4,7 @@
 .btn {
   border: none;
   @include flex(row, center, center, nowrap);
-  @include text($textFontFamily, 14px, 1.2, 400);
+  @include text($textFontFamily, 14px, 1.2, 700);
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 8px 20px;
@@ -18,7 +18,7 @@
   &::after {
     content: "";
     position: absolute;
-    width: 50%;
+    width: 70%;
     height: 10px;
     background: $primaryColor;
     bottom: 0;
