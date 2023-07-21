@@ -6,6 +6,7 @@ import avatarka from '../../assets/image/avatar.jpg'
 import {Particle} from "../../common/components/particle/Particle";
 import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
+import {Tilt} from 'react-tilt'
 
 
 export const Main = () => {
@@ -25,10 +26,12 @@ export const Main = () => {
                     <div className={s.text}>
                         <span>Hi There</span>
                         <h1>I am Andrew Senkevich</h1>
-                        <ReactTypingEffect text={'Frontend Developer.'} speed={100} typingDelay={1000} eraseDelay={2000}/>
+                        <ReactTypingEffect text={'Frontend Developer.'} speed={100} typingDelay={1000}
+                                           eraseDelay={2000}/>
                     </div>
-                    <div className={s.photo} style={avatar}>
-                    </div>
+                    <Tilt className={'Tilt'} option={{max: 25} } >
+                        <div className={s.photo} style={avatar}></div>
+                    </Tilt>
                 </div>
             </div>
         </Fade>
