@@ -3,6 +3,7 @@ import s from './Main.module.scss'
 import styleContainer from '../../common/styles/Container.module.scss'
 import {StyleType} from '../Projects/Project/Project';
 import avatarka from '../../assets/image/avatar.jpg'
+import {Particle} from "../../common/components/particle/Particle";
 
 
 export const Main = () => {
@@ -15,6 +16,7 @@ export const Main = () => {
 
     return (
         <div className={s.mainBlock}>
+            <Particle/>
             <div className={styleContainer.container}>
                 <div className={s.text}>
                     <span>Hi There</span>
