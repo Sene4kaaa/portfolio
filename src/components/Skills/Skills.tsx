@@ -13,6 +13,7 @@ import storybook from "../../assets/svg-icon/storybook-icon-svgrepo-com.svg";
 import mui from "../../assets/svg-icon/material-ui-svgrepo-com.svg";
 import unittests from "../../assets/svg-icon/unit-testing-svgrepo-com.svg";
 import axios from "../../assets/svg-icon/axios-seeklogo.com.svg";
+import {Fade} from "react-awesome-reveal";
 
 
 
@@ -59,6 +60,7 @@ export const Skills = () => {
 
     return (
         <div className={s.skillsBlock}>
+            <Fade direction={"left"}  duration={1500}>
             <div className={`${styleContainer.container} ${s.skillsContainer} `}>
           <Title title={'Skills'}/>
                 <div className={s.skills}>
@@ -73,6 +75,7 @@ export const Skills = () => {
                     <Skill  style={axios_} title={'AXIOS'} description={'Many projects on the web need to interface with a REST API at some stage in their development. Axios is a lightweight HTTP client based on the $http service'}/>
                 </div>
             </div>
+            </Fade>
         </div>
     )
 }
