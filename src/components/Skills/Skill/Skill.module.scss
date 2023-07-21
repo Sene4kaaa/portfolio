@@ -12,6 +12,11 @@
     padding: 20px;
     box-sizing: border-box;
     margin: 6px;
+    &:hover {
+        background-color: $primaryColor;
+        border-radius: 10px;
+        height: 100%;
+    }
     .icon {
         height: 60px;
         width: 60px;
