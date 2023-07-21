@@ -26,9 +26,9 @@ export const Particle = () => {
                 loaded={particlesLoaded}
                 options={{
                     background: {
-                        color: {
-                            value: "#0d47a1",
-                        },
+                        // color: {
+                        //     // value: "#0d47a1",
+                        // },
                     },
                     fpsLimit: 120,
                     interactivity: {
@@ -55,10 +55,10 @@ export const Particle = () => {
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: "#f8e806",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "#f8e806",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,

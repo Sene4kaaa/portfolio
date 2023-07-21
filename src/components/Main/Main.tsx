@@ -15,8 +15,11 @@ export const Main = () => {
 
 
     return (
+
         <div className={s.mainBlock}>
-            <Particle/>
+          <div className={s.particle}>
+              <Particle/>
+          </div>
             <div className={styleContainer.container}>
                 <div className={s.text}>
                     <span>Hi There</span>
@@ -25,6 +28,7 @@ export const Main = () => {
                 </div>
                 <div className={s.photo} style={avatar}>
                 </div>
+
             </div>
 
         </div>

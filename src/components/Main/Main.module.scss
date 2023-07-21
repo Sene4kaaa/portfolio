@@ -4,13 +4,15 @@
 .mainBlock {
   height: 100vh;
   background-color: $bgColor;
-
+  position: relative;
   .text {
     /*border: 1px solid red;*/
     width: 300px;
-    background-color: $bgSecondColor;
+    background-color: $bgColor;
     @include text($titleFontFamily,20px, 1.2, 700);
     color: $textColor;
+    z-index: 0.5;
+
   }
 
   .photo {
@@ -20,7 +22,8 @@
     background-size: cover;
     //background-position: center;
     background-repeat: no-repeat;
-    background-color: $bgSecondColor;
+    //background-color: $bgSecondColor;
+    z-index: 1;
   }
 
 }
