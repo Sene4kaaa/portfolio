@@ -14,6 +14,7 @@ import mui from "../../assets/svg-icon/material-ui-svgrepo-com.svg";
 import unittests from "../../assets/svg-icon/unit-testing-svgrepo-com.svg";
 import axios from "../../assets/svg-icon/axios-seeklogo.com.svg";
 import {Fade} from "react-awesome-reveal";
+import {Tilt} from 'react-tilt'
 
 
 export const Skills = () => {
@@ -63,24 +64,42 @@ export const Skills = () => {
                 <div className={`${styleContainer.container} ${s.skillsContainer} `}>
                     <Title title={'Skills'}/>
                     <div className={s.skills}>
+                        <Tilt className={'Tilt'} option={{max: 25} } >
                         <Skill style={reactt} title={'React'}
-                               description={'A JavaScript library for building user interfaces'}/>
+                              />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25} } >
                         <Skill style={js} title={'JavaScript'}
-                               description={'JavaScript is a dynamic programming language that\'s used for web development, in web applications, for game development, and lots more'}/>
+                               />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25} } >
                         <Skill style={typeScriptt} title={'TypeScript'}
-                               description={'TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.'}/>
+                             />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25} } >
                         <Skill style={css_} title={'CSS'}
-                               description={'Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).'}/>
+                            />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25} } >
                         <Skill style={sass_} title={'SASS'}
-                               description={'Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.'}/>
+                              />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25} } >
                         <Skill style={storyBook_} title={'StoryBook'}
-                               description={'Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation. It’s open source and free.'}/>
+                             />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25} } >
                         <Skill style={mui_} title={'MUI'}
-                               description={'MUI offers a comprehensive suite of UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.'}/>
+                              />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25} } >
                         <Skill style={unittests_} title={'Unit Testing'}
-                               description={'Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually scrutinized for proper operation'}/>
+                              />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25} } >
                         <Skill style={axios_} title={'AXIOS'}
-                               description={'Many projects on the web need to interface with a REST API at some stage in their development. Axios is a lightweight HTTP client based on the $http service'}/>
+                             />
+                        </Tilt>
                     </div>
                 </div>
             </Fade>

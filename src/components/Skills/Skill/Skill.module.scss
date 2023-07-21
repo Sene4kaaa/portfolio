@@ -3,7 +3,7 @@
 
 .skill {
     width: 300px;
-    background-color:$bgColor;
+    //background-color:$bgColor;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,7 @@
     .icon {
         height: 60px;
         width: 60px;
-        background-color: $bgSecondColor;
+        //background-color: $bgSecondColor;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

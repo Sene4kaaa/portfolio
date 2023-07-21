@@ -3,7 +3,6 @@ import s from './Skill.module.scss'
 
 type SkillPropsType = {
     title: string
-    description: string
     style: StyleType
 }
 
@@ -18,7 +17,6 @@ export const Skill = (props: SkillPropsType) => {
             <div className={s.icon} style={props.style}></div>
             <h3 className={s.title}>{props.title}</h3>
             <span className={s.description}>
-                {props.description}
             </span>
         </div>
     )
