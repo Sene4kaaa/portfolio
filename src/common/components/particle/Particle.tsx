@@ -25,6 +25,8 @@ export const Particle = () => {
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={{
+                    fullScreen: false,
+
                     background: {
                         // color: {
                         //     // value: "#0d47a1",

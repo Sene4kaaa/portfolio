@@ -17,12 +17,12 @@ export const Main = () => {
     };
 
     return (
-        <Fade direction={"right"} duration={1500} className={s.fade} triggerOnce={true}>
+
             <div className={s.mainBlock}>
-                <div className={s.particle}>
                     <Particle/>
-                </div>
-                <div className={styleContainer.container}>
+                <Fade direction={"right"} duration={1500}  /*triggerOnce={true}*/>
+                <div className={`${styleContainer.container} ${s.sacascsa} `}>
+
                     <div className={s.text}>
                         <span>Hi There</span>
                         <h1>I am Andrew Senkevich</h1>
@@ -30,10 +30,14 @@ export const Main = () => {
                                            eraseDelay={2000}/>
                     </div>
                     <Tilt className={'Tilt'} option={{max: 25} } >
-                        <div className={s.photo} style={avatar}></div>
+                        <div className={s.photoContainer}>
+                            <div className={s.photo} style={avatar}></div>
+                        </div>
                     </Tilt>
+
                 </div>
+                </Fade>
             </div>
-        </Fade>
+
     )
 }
