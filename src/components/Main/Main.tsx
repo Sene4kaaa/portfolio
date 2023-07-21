@@ -16,7 +16,7 @@ export const Main = () => {
 
 
     return (
-        <Fade direction={"right"} duration={1500}>
+        <Fade direction={"right"} duration={1500} className={s.fade} triggerOnce={true}>
             <div className={s.mainBlock}>
 
                 <div className={s.particle}>

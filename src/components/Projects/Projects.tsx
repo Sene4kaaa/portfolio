@@ -5,6 +5,7 @@ import {Project} from './Project/Project';
 import {Title} from '../../common/components/title/Title';
 import todoImage from '../../assets/image/to-do-list.jpg'
 import socialImage from '../../assets/image/socialNetwork.jpg'
+import {Fade} from "react-awesome-reveal";
 
 export const Projects = () => {
 
@@ -21,6 +22,7 @@ export const Projects = () => {
 
     return (
         <div className={s.projectsBlock}>
+            <Fade direction={"right"} duration={1500}  /*triggerOnce={true}*/>
             <div className={`${styleContainer.container} ${s.projectsContainer} `}>
                 <Title title={'Projects'}/>
                 <div className={s.projects}>
@@ -29,6 +31,7 @@ export const Projects = () => {
                     {/*<Project title={'Portfolio'} description={'Project description'}/>*/}
                 </div>
             </div>
+            </Fade>
         </div>
     )
 }
