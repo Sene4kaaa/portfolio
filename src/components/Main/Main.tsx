@@ -5,6 +5,7 @@ import {StyleType} from '../Projects/Project/Project';
 import avatarka from '../../assets/image/avatar.jpg'
 import {Particle} from "../../common/components/particle/Particle";
 import {Fade} from "react-awesome-reveal";
+import ReactTypingEffect from "react-typing-effect";
 
 
 export const Main = () => {
@@ -25,7 +26,8 @@ export const Main = () => {
                     <div className={s.text}>
                         <span>Hi There</span>
                         <h1>I am Andrew Senkevich</h1>
-                        <p>Frontend Developer.</p>
+
+                        <ReactTypingEffect text={'Frontend Developer.'}/>
                     </div>
                     <div className={s.photo} style={avatar}>
                     </div>
