@@ -15,7 +15,6 @@ export const Main = () => {
         backgroundImage: `url(${avatarka})`,
     };
 
-
     return (
         <Fade direction={"right"} duration={1500} className={s.fade} triggerOnce={true}>
             <div className={s.mainBlock}>
