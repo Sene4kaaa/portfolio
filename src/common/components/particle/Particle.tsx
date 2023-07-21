@@ -19,8 +19,8 @@ export const Particle = () => {
         await console.log(container);
     }, []);
     return (
-        <div className={s.particle}>
-            <Particles
+
+            <Particles className={s.particle}
                 id="tsparticles"
                 init={particlesInit}
                 loaded={particlesLoaded}
@@ -94,6 +94,6 @@ export const Particle = () => {
                     detectRetina: true,
                 }}
             />
-        </div>
+
     );
 };
