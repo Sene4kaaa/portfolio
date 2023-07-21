@@ -22,16 +22,18 @@ export const Projects = () => {
 
     return (
         <div className={s.projectsBlock}>
+            <Fade direction={"right"} duration={1500} className={s.fade} triggerOnce={false}>
             <div className={`${styleContainer.container} ${s.projectsContainer} `}>
-                <Fade direction={"right"} duration={1500} className={s.fade} triggerOnce={false}>
+
                 <Title title={'Projects'}/>
                 <div className={s.projects}>
                     <Project style={socialNetwork} title={'Social Network'} description={'Project descriptdsav savsdvdsvsgvsgfvvgfgvf gf fg svgs  ds gdssdvdsvdsvsdvdsvdsvdsvdfbbfdfb fbfd bf fb db fd bfd fdb fbd fdb fdb fdbs  svdds vsion'}/>
                     <Project  style={todolist} title={'Todolist'} description={'Project description'}/>
                     {/*<Project title={'Portfolio'} description={'Project description'}/>*/}
                 </div>
-                </Fade>
+
             </div>
+            </Fade>
         </div>
     )
 }
