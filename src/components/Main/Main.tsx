@@ -26,8 +26,7 @@ export const Main = () => {
                     <div className={s.text}>
                         <span>Hi There</span>
                         <h1>I am Andrew Senkevich</h1>
-
-                        <ReactTypingEffect text={'Frontend Developer.'}/>
+                        <ReactTypingEffect text={'Frontend Developer.'} speed={100} typingDelay={1000} eraseDelay={2000}/>
                     </div>
                     <div className={s.photo} style={avatar}>
                     </div>
