@@ -21,7 +21,7 @@ export const Projects = () => {
     };
 
     return (
-        <div className={s.projectsBlock}>
+        <div id={'Projects'} className={s.projectsBlock}>
             <Fade direction={"right"} duration={1500} className={s.fade} triggerOnce={false}>
             <div className={`${styleContainer.container} ${s.projectsContainer} `}>
 
