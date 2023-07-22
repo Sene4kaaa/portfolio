@@ -18,7 +18,7 @@ export const Footer = () => {
                 <Title title={'Andrew Senkevich'}/>
                 <div className={`${styleContainer.container} ${s.blockContainer} `}>
                     <a href={'https://www.instagram.com/senkevich92_/'}>
-                        <Block src={instagram}/></a>
+                        <Block src={instagram} /></a>
                     <a href={'https://t.me/Andrew_Sene4kaa'}>
                         <Block src={telegram}/></a>
                     <a href={'https://github.com/Sene4kaaa'}>
