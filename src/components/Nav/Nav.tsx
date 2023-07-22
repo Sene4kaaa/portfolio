@@ -8,15 +8,22 @@ export const Nav = () => {
         <div className={s.nav}>
             <a href="#Main">Main</a>
             <a href="#Skills">Skills</a>
-            <a href="#Projects">Projects</a>
-            {/*<a href="#Contacts">Contacts</a>*/}
+            {/*<a href="#Projects">Projects</a>*/}
+            <Link
+                activeClass={s.active}
+                to={"Projects"}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1500}
+            >Projects</Link>
             <Link
                 activeClass={s.active}
                 to={"Contacts"}
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={500}
+                duration={1500}
             >Contacts</Link>
         </div>
     )
