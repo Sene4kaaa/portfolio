@@ -3,10 +3,12 @@
 .header {
 
   z-index: 1;
+  width: 100%;
   height: 80px;
   background-color: $bgHeaderColor;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: fixed;
 }
 

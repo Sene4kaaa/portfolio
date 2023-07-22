@@ -39,7 +39,7 @@ export const Nav = () => {
                 to={"Contacts"}
                 spy={true}
                 smooth={true}
-                offset={1}
+                offset={-1}
                 duration={1500}
             >Contacts</Link>
         </div>
