@@ -9,6 +9,7 @@ import telegram from "../../assets/svg-icon/telegram-logo-svgrepo-com.svg";
 import github from "../../assets/svg-icon/github-svgrepo-com.svg";
 import linkedin from "../../assets/svg-icon/linkedin-svgrepo-com.svg";
 
+
 export const Footer = () => {
 
     return (
