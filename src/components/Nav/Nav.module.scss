@@ -10,14 +10,18 @@
 
 
   & a {
-    @include text($titleFontFamily,20px, 1.2, 700);
+    @include text($titleFontFamily, 20px, 1.2, 700);
     color: $bgColor;
     text-decoration: none;
-    transition: 0.5s ease-in-out ;
+    transition: 0.5s ease-in-out;
   }
 
-  :hover {
 
+  :hover {
+    transform: scale(1.2);
+  }
+
+  .active {
     transform: scale(1.2);
   }
 }
