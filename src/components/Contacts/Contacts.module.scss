@@ -32,11 +32,21 @@
 
       .input {
         background-color: silver;
+        &:focus {
+          outline: none;
+          border-color: $primaryColor;
+          background-color: white;
+        }
       }
 
       .textarea {
         resize: none;
         background-color: silver;
+        &:focus {
+          outline: none;
+          border-color: $primaryColor;
+          background-color: white;
+        }
       }
 
       button {
