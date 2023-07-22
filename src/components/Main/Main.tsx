@@ -18,7 +18,7 @@ export const Main = () => {
 
     return (
 
-            <div className={s.mainBlock}>
+            <div id={'Main'} className={s.mainBlock}>
                     <Particle/>
                 <Fade direction={"right"} duration={1500}  /*triggerOnce={true}*/>
                 <div className={`${styleContainer.container} ${s.sacascsa} `}>

@@ -59,7 +59,7 @@ export const Skills = () => {
     };
 
     return (
-        <div className={s.skillsBlock}>
+        <div id={'Skills'} className={s.skillsBlock}>
             <Fade direction={"left"} duration={1500}  /*triggerOnce={true}*/>
                 <div className={`${styleContainer.container} ${s.skillsContainer} `}>
                     <Title title={'Skills'}/>
