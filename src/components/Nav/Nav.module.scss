@@ -4,18 +4,21 @@
 .nav {
   /*border: 1px solid crimson;*/
 
-  width: 300px;
+  width: 350px;
   display: flex;
   justify-content: space-evenly;
+
 
   & a {
     @include text($titleFontFamily,20px, 1.2, 700);
     color: $bgColor;
     text-decoration: none;
+    transition: 0.5s ease-in-out ;
   }
 
   :hover {
-    text-decoration: underline $bgColor;
+
+    transform: scale(1.2);
   }
 }
 
