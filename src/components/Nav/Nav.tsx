@@ -6,11 +6,27 @@ import {Link} from "react-scroll";
 export const Nav = () => {
     return (
         <div className={s.nav}>
-            <a href="#Main">Main</a>
-            <a href="#Skills">Skills</a>
-            {/*<a href="#Projects">Projects</a>*/}
             <Link
                 activeClass={s.active}
+                href={''}
+                to={"Main"}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1500}
+            >Main</Link>
+            <Link
+                activeClass={s.active}
+                href={''}
+                to={"Skills"}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1500}
+            >Skills</Link>
+            <Link
+                activeClass={s.active}
+                href={''}
                 to={"Projects"}
                 spy={true}
                 smooth={true}
@@ -19,6 +35,7 @@ export const Nav = () => {
             >Projects</Link>
             <Link
                 activeClass={s.active}
+                href={''}
                 to={"Contacts"}
                 spy={true}
                 smooth={true}
