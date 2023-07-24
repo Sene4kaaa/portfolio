@@ -1,5 +1,4 @@
 @import "src/common/styles/sass/Variables";
-@import "src/common/styles/sass/Mixins";
 
 .header {
 
@@ -8,21 +7,9 @@
   height: 70px;
   background-color: $bgHeaderColor;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   position: fixed;
   box-shadow:  0 -4px 10px 4px $primaryColor;
-
-
-}
-.icons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 200px;
-}
-.title{
-  @include text($titleFontFamily, 30px, 1.2, 700);
-  color: $bgColor;
 }
 

@@ -12,18 +12,7 @@ export const Header = () => {
     return (
 
         <div className={s.header}>
-            <div className={s.title}>Sene4kaaa</div>
             <Nav/>
-            <div className={s.icons}>
-                <a href={'https://www.instagram.com/senkevich92_/'}>
-                    <Block src={instagram}/></a>
-                <a href={'https://t.me/Andrew_Sene4kaa'}>
-                    <Block src={telegram}/></a>
-                <a href={'https://github.com/Sene4kaaa'}>
-                    <Block src={github}/></a>
-                <a href={'https://ru.linkedin.com/'}>
-                    <Block src={linkedin}/></a>
-            </div>
         </div>
     )
 }
