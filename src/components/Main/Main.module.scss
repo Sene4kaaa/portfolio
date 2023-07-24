@@ -12,6 +12,7 @@
   .text {
     /*border: 1px solid red;*/
     width: 300px;
+    padding-top: 20px;
     //background-color: $bgColor;
     @include text($titleFontFamily, 20px, 1.2, 700);
     color: $textColor;
