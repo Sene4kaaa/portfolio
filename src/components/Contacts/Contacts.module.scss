@@ -12,7 +12,7 @@
 
   .contactsContainer {
     display: flex;
-    gap:50px;
+    gap:150px;
     align-items: flex-start;
 
     @media screen and (max-width: 800px) {
@@ -95,5 +95,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
