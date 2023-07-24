@@ -12,12 +12,12 @@
 
   .contactsContainer {
     display: flex;
-    gap:150px;
+    gap: 150px;
     align-items: flex-start;
 
     @media screen and (max-width: 800px) {
 
-       flex-direction: column;
+      flex-direction: column;
     }
 
     .blabla {
@@ -37,7 +37,10 @@
       gap: 10px;
 
       .name {
-        color: $primaryColor;
+
+        @include text($titleFontFamily, 20px, 1.5, 700);
+        letter-spacing: 1px;
+        //color: $primaryColor;
       }
 
       .form input, .form textarea {
@@ -45,23 +48,40 @@
       }
 
       .input {
-        background-color: silver;
+
+        padding: 0.5rem 0;
+        border: none;
+        border-bottom: 2px solid$primaryColor;
+        margin-bottom: 1rem;
+        resize: none;
+        background-color: transparent;
+        font-size: 18px;
+        transition: 0.3s ease-in-out;
+
 
         &:focus {
           outline: none;
-          border-color: $primaryColor;
-          background-color: white;
+          border-color: black;
+          background-color:$primaryColor;
         }
       }
 
       .textarea {
         resize: none;
         background-color: silver;
+        padding: 0.5rem 0;
+        border: none;
+        border-bottom: 2px solid$primaryColor;
+        margin-bottom: 1rem;
+        resize: none;
+        background-color: transparent;
+        font-size: 18px;
+        transition: 0.3s ease-in-out;
 
         &:focus {
           outline: none;
-          border-color: $primaryColor;
-          background-color: white;
+          border-color: black;
+          background-color:$primaryColor;
         }
       }
 
@@ -90,14 +110,16 @@
     }
   }
 }
-.block{
+
+.block {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
 }
-.write{
+
+.write {
   color: $primaryColor;
 }
 
