@@ -23,6 +23,7 @@
     .blabla {
       @include text($titleFontFamily, 20px, 1.5, 700);
       letter-spacing: 1px;
+      padding: 30px;
     }
 
     .form {
@@ -31,7 +32,8 @@
       flex-direction: column;
       justify-content: space-between;
       background-color: $bgSecondColor;
-      margin-top: 20px;
+      padding: 30px;
+      //margin-top: 20px;
       gap: 10px;
 
       .name {
