@@ -5,7 +5,7 @@ import {Skill} from "./Skill/Skill";
 import {Title} from "../../common/components/title/Title";
 import {StyleType} from "../Projects/Project/Project";
 import react from "../../assets/svg-icon/react-svgrepo-com.svg";
-import toolkit from "../../assets/svg-icon/react-svgrepo-com.svg";
+import toolkit from "../../assets/svg-icon/redux-toolkit.svg";
 import javascript from "../../assets/svg-icon/js-official-svgrepo-com.svg";
 import tp from "../../assets/svg-icon/typescript-svgrepo-com.svg";
 import css from "../../assets/svg-icon/css-svgrepo-com.svg";
@@ -79,7 +79,7 @@ export const Skills = () => {
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
-                            <Skill style={reactReduxx} title={'React'}
+                            <Skill style={reactReduxx} title={'Redux | Toolkit'}
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
