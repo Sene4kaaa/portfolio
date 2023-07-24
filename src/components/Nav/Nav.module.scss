@@ -2,9 +2,10 @@
 @import "src/common/styles/sass/Mixins";
 
 .nav {
-  width: 350px;
+  width: 400px;
   display: flex;
   justify-content: space-evenly;
+  
 
 
   & a {
@@ -16,11 +17,11 @@
 
 
   :hover {
-    transform: scale(1.2);
+    transform: scale(1.5);
   }
 
   .active {
-    transform: scale(1.2);
+    transform: scale(1.5);
   }
 }
 
