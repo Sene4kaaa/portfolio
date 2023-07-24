@@ -14,6 +14,7 @@ import storybook from "../../assets/svg-icon/storybook-icon-svgrepo-com.svg";
 import mui from "../../assets/svg-icon/material-ui-svgrepo-com.svg";
 import unittests from "../../assets/svg-icon/unit-testing-svgrepo-com.svg";
 import postman from "../../assets/svg-icon/postman-icon.svg";
+import git from "../../assets/svg-icon/git.svg";
 import axios from "../../assets/svg-icon/axios-seeklogo.com.svg";
 import {Fade} from "react-awesome-reveal";
 import {Tilt} from 'react-tilt'
@@ -63,6 +64,12 @@ export const Skills = () => {
         color: 'blue',
         backgroundImage: `url(${postman})`,
     };
+
+    const gitt: StyleType = {
+        color: 'blue',
+        backgroundImage: `url(${git})`,
+    };
+
     const axios_: StyleType = {
         color: 'blue',
         backgroundImage: `url(${axios})`,
@@ -108,11 +115,15 @@ export const Skills = () => {
                         </Tilt>
 
                         <Tilt className={'Tilt'} option={{max: 25}}>
-                            <Skill style={unittests_} title={'Unit Testing'}
+                            <Skill style={unittests_} title={'Unit-tests'}
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
                             <Skill style={postmann} title={'Postman'}
+                            />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={gitt} title={'Git'}
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
