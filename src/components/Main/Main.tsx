@@ -36,8 +36,6 @@ export const Main = () => {
                         <div className={s.icons}>
                             <a href={'https://t.me/Andrew_Sene4kaa'}>
                                 <Block src={telegram}/></a>
-                            <a href={'https://github.com/Sene4kaaa'}>
-                                <Block src={github}/></a>
                             <a href={'https://ru.linkedin.com/'}>
                                 <Block src={linkedin}/></a>
                         </div>
