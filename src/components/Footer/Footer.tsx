@@ -2,7 +2,6 @@ import React from 'react';
 import s from './Footer.module.scss'
 import {Block} from "./Block/Block";
 import styleContainer from "../../common/styles/Container.module.scss";
-import {Title} from "../../common/components/title/Title";
 import instagram from "../../assets/svg-icon/instagram-1-svgrepo-com.svg";
 import telegram from "../../assets/svg-icon/telegram-logo-svgrepo-com.svg";
 import github from "../../assets/svg-icon/github-svgrepo-com.svg";
@@ -14,12 +13,10 @@ export const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footerContainer} `}>
-                {/*<div className={`${styleContainer.container} ${s.blockContainer} `}>*/}
-                {/*</div>*/}
                 <div className={s.blockContainer}>
                     <div>
-                    <span className={s.title}>© 2023 All rights reserved <a className={s.href}
-                                                                            href={'https://github.com/Sene4kaaa'}>Andrew Senkevich</a> </span>
+                        <span className={s.title}>© 2023 All rights reserved <a className={s.href}
+                                                                                href={'https://github.com/Sene4kaaa'}>Andrew Senkevich</a> </span>
                     </div>
                     <div className={s.icons}>
                         <a href={'https://www.instagram.com/senkevich92_/'}>

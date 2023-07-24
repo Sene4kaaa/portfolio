@@ -15,7 +15,7 @@ export const Contacts = () => {
                     <Title title={'Let\'s get in touch'}/>
                     <div className={s.blabla}>
                     <p>
-                        Thank you for visiting my portfolio page! If you are looking for an experienced and talented front-end
+                        Thank you for visiting my portfolio page! If you are looking for an purposeful and talented front-end
                         developer who can help you create a unique and functional web interface, then you are in the right
                         place.
                     </p>
