@@ -9,16 +9,20 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
+
   .contactsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+    display: flex;
+    gap:50px;
+    align-items: flex-start;
+
+    @media screen and (max-width: 800px) {
+
+       flex-direction: column;
+    }
 
     .blabla {
-      text-align: start;
-      width: 100%;
-      @include text($titleFontFamily, 18px, 1.5, 700);
+      @include text($titleFontFamily, 20px, 1.5, 700);
       letter-spacing: 1px;
-      margin: 0 0 5px;
     }
 
     .form {
@@ -84,5 +88,10 @@
     }
   }
 }
-
+.block{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 

@@ -9,8 +9,8 @@ export const Contacts = () => {
 
     return (
         <div id={'Contacts'} className={s.contactsBlock}>
-            <div className={`${styleContainer.container} ${s.contactsContainer} `}>
-                <div className={`${styleContainer.container} ${s.contactsContainer} `}>
+            <div className={s.contactsContainer}>
+                <div className={s.block}>
                     <Title title={'Let\'s get in touch'}/>
                     <div className={s.blabla}>
                     <p>
@@ -26,16 +26,20 @@ export const Contacts = () => {
                     <h4>senkevich92@mail.ru</h4>
                     </div>
                 </div>
-                <Title title={'Contact'}/>
-                <form className={s.form}>
-                    <label className={s.name} htmlFor="name">What is Your Name:</label>
-                    <input type={"text"} className={s.input} name={'name'}/>
-                    <label className={s.name} htmlFor="email">E-mail:</label>
-                    <input type={"email"} className={s.input}  name={'name'}/>
-                    <label className={s.name} htmlFor="message">Message:</label>
-                    <textarea className={s.textarea} name={'message'} rows={3}></textarea>
-                    <button type={"submit"} className={s.button}>Send</button>
-                </form>
+
+                <div  className={s.block}>
+                    <Title title={'Contact'}/>
+                    <form className={s.form}>
+                        <label className={s.name} htmlFor="name">What is Your Name:</label>
+                        <input type={"text"} className={s.input} name={'name'}/>
+                        <label className={s.name} htmlFor="email">E-mail:</label>
+                        <input type={"email"} className={s.input}  name={'name'}/>
+                        <label className={s.name} htmlFor="message">Message:</label>
+                        <textarea className={s.textarea} name={'message'} rows={3}></textarea>
+                        <button type={"submit"} className={s.button}>Send</button>
+                    </form>
+                </div>
+
 
             </div>
         </div>
