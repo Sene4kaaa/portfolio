@@ -5,6 +5,7 @@ import {Skill} from "./Skill/Skill";
 import {Title} from "../../common/components/title/Title";
 import {StyleType} from "../Projects/Project/Project";
 import react from "../../assets/svg-icon/react-svgrepo-com.svg";
+import toolkit from "../../assets/svg-icon/react-svgrepo-com.svg";
 import javascript from "../../assets/svg-icon/js-official-svgrepo-com.svg";
 import tp from "../../assets/svg-icon/typescript-svgrepo-com.svg";
 import css from "../../assets/svg-icon/css-svgrepo-com.svg";
@@ -12,6 +13,7 @@ import sass from "../../assets/svg-icon/sass-svgrepo-com.svg";
 import storybook from "../../assets/svg-icon/storybook-icon-svgrepo-com.svg";
 import mui from "../../assets/svg-icon/material-ui-svgrepo-com.svg";
 import unittests from "../../assets/svg-icon/unit-testing-svgrepo-com.svg";
+import postman from "../../assets/svg-icon/postman-icon.svg";
 import axios from "../../assets/svg-icon/axios-seeklogo.com.svg";
 import {Fade} from "react-awesome-reveal";
 import {Tilt} from 'react-tilt'
@@ -22,6 +24,10 @@ export const Skills = () => {
     const reactt: StyleType = {
         color: 'blue',
         backgroundImage: `url(${react})`,
+    };
+    const reactReduxx: StyleType = {
+        color: 'blue',
+        backgroundImage: `url(${toolkit})`,
     };
 
     const js: StyleType = {
@@ -53,6 +59,10 @@ export const Skills = () => {
         color: 'blue',
         backgroundImage: `url(${unittests})`,
     };
+    const postmann: StyleType = {
+        color: 'blue',
+        backgroundImage: `url(${postman})`,
+    };
     const axios_: StyleType = {
         color: 'blue',
         backgroundImage: `url(${axios})`,
@@ -64,41 +74,50 @@ export const Skills = () => {
                 <div className={`${styleContainer.container} ${s.skillsContainer} `}>
                     <Title title={'Skills'}/>
                     <div className={s.skills}>
-                        <Tilt className={'Tilt'} option={{max: 25} } >
-                        <Skill style={reactt} title={'React'}
-                              />
-                        </Tilt>
-                        <Tilt className={'Tilt'} option={{max: 25} } >
-                        <Skill style={js} title={'JavaScript'}
-                               />
-                        </Tilt>
-                        <Tilt className={'Tilt'} option={{max: 25} } >
-                        <Skill style={typeScriptt} title={'TypeScript'}
-                             />
-                        </Tilt>
-                        <Tilt className={'Tilt'} option={{max: 25} } >
-                        <Skill style={css_} title={'CSS'}
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={reactt} title={'React'}
                             />
                         </Tilt>
-                        <Tilt className={'Tilt'} option={{max: 25} } >
-                        <Skill style={sass_} title={'SASS'}
-                              />
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={reactReduxx} title={'React'}
+                            />
                         </Tilt>
-                        <Tilt className={'Tilt'} option={{max: 25} } >
-                        <Skill style={storyBook_} title={'StoryBook'}
-                             />
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={js} title={'JavaScript'}
+                            />
                         </Tilt>
-                        <Tilt className={'Tilt'} option={{max: 25} } >
-                        <Skill style={mui_} title={'MUI'}
-                              />
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={typeScriptt} title={'TypeScript'}
+                            />
                         </Tilt>
-                        <Tilt className={'Tilt'} option={{max: 25} } >
-                        <Skill style={unittests_} title={'Unit Testing'}
-                              />
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={css_} title={'CSS'}
+                            />
                         </Tilt>
-                        <Tilt className={'Tilt'} option={{max: 25} } >
-                        <Skill style={axios_} title={'AXIOS'}
-                             />
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={sass_} title={'SASS'}
+                            />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={mui_} title={'MUI'}
+                            />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={storyBook_} title={'StoryBook'}
+                            />
+                        </Tilt>
+
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={unittests_} title={'Unit Testing'}
+                            />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={postmann} title={'Postman'}
+                            />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={axios_} title={'AXIOS'}
+                            />
                         </Tilt>
                     </div>
                 </div>
