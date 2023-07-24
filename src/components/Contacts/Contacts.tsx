@@ -15,15 +15,15 @@ export const Contacts = () => {
                     <Title title={'Let\'s get in touch'}/>
                     <div className={s.blabla}>
                     <p>
-                        Thank you for visiting my portfolio page! If you are looking for an purposeful and talented front-end
-                        developer who can help you create a unique and functional web interface, then you are in the right
+                        Thank you for visiting my portfolio page! If you are looking for an <span className={s.write}>purposeful and talented front-end
+                        developer</span> who can help you create a unique and functional web interface, then you are in the right
                         place.
                     </p>
                     <p>
                         If you have any questions, comments, or proposals, please do not hesitate to contact me through the
                         contact form. I will be happy to discuss all the details.
                     </p>
-                    <h3>Write:</h3>
+                    <h3 className={s.write}>Write:</h3>
                     <h4>senkevich92@mail.ru</h4>
                     </div>
                 </div>
