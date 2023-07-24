@@ -3,12 +3,12 @@
 .blochHover {
     transition: 0.5s ease-in-out ;
     &:hover {
-        transform: scale(1.2);
+        transform: scale(1.5);
     }
 
     .block {
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

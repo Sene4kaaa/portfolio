@@ -3,7 +3,6 @@ import s from './Footer.module.scss'
 import {Block} from "./Block/Block";
 import styleContainer from "../../common/styles/Container.module.scss";
 import {Title} from "../../common/components/title/Title";
-
 import instagram from "../../assets/svg-icon/instagram-1-svgrepo-com.svg";
 import telegram from "../../assets/svg-icon/telegram-logo-svgrepo-com.svg";
 import github from "../../assets/svg-icon/github-svgrepo-com.svg";
