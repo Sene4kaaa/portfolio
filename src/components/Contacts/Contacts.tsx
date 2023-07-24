@@ -10,7 +10,23 @@ export const Contacts = () => {
     return (
         <div id={'Contacts'} className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer} `}>
-                <Title title={'Contacts'}/>
+                <div className={`${styleContainer.container} ${s.contactsContainer} `}>
+                    <Title title={'Let\'s get in touch'}/>
+                    <div className={s.blabla}>
+                    <p>
+                        Thank you for visiting my portfolio page! If you are looking for an experienced and talented front-end
+                        developer who can help you create a unique and functional web interface, then you are in the right
+                        place.
+                    </p>
+                    <p>
+                        If you have any questions, comments, or proposals, please do not hesitate to contact me through the
+                        contact form. I will be happy to discuss all the details.
+                    </p>
+                    <h3>Write:</h3>
+                    <h4>senkevich92@mail.ru</h4>
+                    </div>
+                </div>
+                <Title title={'Contact'}/>
                 <form className={s.form}>
                     <label className={s.name} htmlFor="name">What is Your Name:</label>
                     <input type={"text"} className={s.input} name={'name'}/>

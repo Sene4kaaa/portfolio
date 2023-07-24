@@ -13,6 +13,14 @@
     flex-direction: column;
     justify-content: flex-start;
 
+    .blabla {
+      text-align: start;
+      width: 100%;
+      @include text($titleFontFamily, 18px, 1.5, 700);
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+    }
+
     .form {
       width: 50%;
       display: flex;
@@ -32,6 +40,7 @@
 
       .input {
         background-color: silver;
+
         &:focus {
           outline: none;
           border-color: $primaryColor;
@@ -42,6 +51,7 @@
       .textarea {
         resize: none;
         background-color: silver;
+
         &:focus {
           outline: none;
           border-color: $primaryColor;
