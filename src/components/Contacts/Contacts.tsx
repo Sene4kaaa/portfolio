@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Contacts.module.scss'
-import styleContainer from '../../common/styles/Container.module.scss'
 import {Title} from "../../common/components/title/Title";
+import {Fade} from "react-awesome-reveal";
 
 
 export const Contacts = () => {
@@ -9,6 +9,7 @@ export const Contacts = () => {
 
     return (
         <div id={'Contacts'} className={s.contactsBlock}>
+            <Fade direction={"up"} duration={1500}  /*triggerOnce={true}*/>
             <div className={s.contactsContainer}>
                 <div className={s.block}>
                     <Title title={'Let\'s get in touch'}/>
@@ -42,6 +43,7 @@ export const Contacts = () => {
 
 
             </div>
+            </Fade>
         </div>
     )
 }
