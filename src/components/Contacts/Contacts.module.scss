@@ -33,7 +33,7 @@
       justify-content: space-between;
       background-color: $bgSecondColor;
       padding: 30px;
-      //margin-top: 20px;
+      //margin-left: 150px;
       gap: 10px;
 
       .name {
@@ -126,5 +126,11 @@
 
 .write {
   color: $primaryColor;
+}
+
+.formAll{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 

@@ -30,6 +30,7 @@ export const Contacts = () => {
 
                 <div  className={s.block}>
                     <Title title={'Contact'}/>
+                    <div className={s.formAll}>
                     <form className={s.form}>
                         <label className={s.name} htmlFor="name">What is Your Name:</label>
                         <input type={"text"} className={s.input} name={'name'}/>
@@ -39,6 +40,7 @@ export const Contacts = () => {
                         <textarea className={s.textarea} name={'message'} rows={3}></textarea>
                         <button type={"submit"} className={s.button}>Send</button>
                     </form>
+                    </div>
                 </div>
 
 
