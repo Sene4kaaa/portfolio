@@ -14,19 +14,25 @@ export const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footerContainer} `}>
-                <Title title={'Andrew Senkevich'}/>
-                <div className={`${styleContainer.container} ${s.blockContainer} `}>
-                    <a href={'https://www.instagram.com/senkevich92_/'}>
-                        <Block src={instagram} /></a>
-                    <a href={'https://t.me/Andrew_Sene4kaa'}>
-                        <Block src={telegram}/></a>
-                    <a href={'https://github.com/Sene4kaaa'}>
-                        <Block src={github}/></a>
-                    <a href={'https://ru.linkedin.com/'}>
-                        <Block src={linkedin}/></a>
+                {/*<div className={`${styleContainer.container} ${s.blockContainer} `}>*/}
+                {/*</div>*/}
+                <div className={s.blockContainer}>
+                    <div>
+                    <span className={s.title}>© 2023 All rights reserved <a className={s.href}
+                                                                            href={'https://github.com/Sene4kaaa'}>Andrew Senkevich</a> </span>
+                    </div>
+                    <div className={s.icons}>
+                        <a href={'https://www.instagram.com/senkevich92_/'}>
+                            <Block src={instagram}/></a>
+                        <a href={'https://t.me/Andrew_Sene4kaa'}>
+                            <Block src={telegram}/></a>
+                        <a href={'https://github.com/Sene4kaaa'}>
+                            <Block src={github}/></a>
+                        <a href={'https://ru.linkedin.com/'}>
+                            <Block src={linkedin}/></a>
+                    </div>
 
                 </div>
-                <span className={s.title}>© 2023 All rights reserved</span>
             </div>
         </div>
     )

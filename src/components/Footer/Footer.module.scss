@@ -7,26 +7,33 @@
 
   .footerContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+
 
     .blockContainer {
       display: flex;
+      width: 100%;
       justify-content: space-between;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      max-width: 350px;
     }
 
     .title {
-      background-color: $primaryColor;
+      background-color: $bgSecondColor;
       font-family: $titleFontFamily;
+      color: $textColor;
     }
   }
 }
 
+.href {
+  font-family: $titleFontFamily;
+  color: $primaryColor;
+}
 
-
+.icons {
+  display: flex;
+  flex-direction: row;
+}
 
 
 

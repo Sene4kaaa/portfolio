@@ -9,7 +9,7 @@ export const Contacts = () => {
 
     return (
         <div id={'Contacts'} className={s.contactsBlock}>
-            <Fade direction={"up"} duration={1500}  /*triggerOnce={true}*/>
+            <Fade direction={"top-left"} duration={1500}  /*triggerOnce={true}*/>
             <div className={s.contactsContainer}>
                 <div className={s.block}>
                     <Title title={'Let\'s get in touch'}/>
