@@ -12,7 +12,7 @@ import css from "../../assets/svg-icon/css-svgrepo-com.svg";
 import sass from "../../assets/svg-icon/sass-svgrepo-com.svg";
 import storybook from "../../assets/svg-icon/storybook-icon-svgrepo-com.svg";
 import mui from "../../assets/svg-icon/material-ui-svgrepo-com.svg";
-import unittests from "../../assets/svg-icon/unit-testing-svgrepo-com.svg";
+import unittests from "../../assets/svg-icon/usability-testing.svg";
 import postman from "../../assets/svg-icon/postman-icon.svg";
 import git from "../../assets/svg-icon/git.svg";
 import axios from "../../assets/svg-icon/axios-seeklogo.com.svg";
