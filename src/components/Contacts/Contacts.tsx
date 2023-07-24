@@ -2,7 +2,6 @@ import React from 'react';
 import s from './Contacts.module.scss'
 import {Title} from "../../common/components/title/Title";
 import {Fade} from "react-awesome-reveal";
-import {Tilt} from 'react-tilt'
 
 
 export const Contacts = () => {
@@ -13,9 +12,7 @@ export const Contacts = () => {
             <Fade direction={"top-left"} duration={1500}  /*triggerOnce={true}*/>
             <div className={s.contactsContainer}>
                 <div className={s.block}>
-
                     <Title title={'Let\'s get in touch'}/>
-                    <Tilt className={'Tilt'} option={{max: 25} } >
                     <div className={s.blabla}>
                     <p>
                         Thank you for visiting my portfolio page! If you are looking for an <span className={s.write}>purposeful and talented front-end
@@ -29,7 +26,6 @@ export const Contacts = () => {
                     <h3 className={s.write}>Write:</h3>
                     <h4>senkevich92@mail.ru</h4>
                     </div>
-                    </Tilt>
                 </div>
 
                 <div  className={s.block}>
