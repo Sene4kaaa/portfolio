@@ -51,37 +51,42 @@
 
         padding: 0.5rem 0;
         border: none;
-        border-bottom: 2px solid$primaryColor;
+        border-bottom: 2px solid $primaryColor;
         margin-bottom: 1rem;
         resize: none;
         background-color: transparent;
         font-size: 18px;
         transition: 0.3s ease-in-out;
+        color: $textColor;
+        @include text($textFontFamily, 15px, 1.5, 400);
 
 
         &:focus {
           outline: none;
           border-color: black;
-          background-color:$primaryColor;
+          background-color: $primaryColor;
+          color: rgb(0, 0, 0);
         }
       }
 
       .textarea {
         resize: none;
-        background-color: silver;
         padding: 0.5rem 0;
         border: none;
-        border-bottom: 2px solid$primaryColor;
+        border-bottom: 2px solid $primaryColor;
         margin-bottom: 1rem;
         resize: none;
         background-color: transparent;
         font-size: 18px;
         transition: 0.3s ease-in-out;
+        color: $textColor;
+        @include text($textFontFamily, 15px, 1.5, 400);
 
         &:focus {
           outline: none;
           border-color: black;
-          background-color:$primaryColor;
+          background-color: $primaryColor;
+          color: rgb(0, 0, 0);
         }
       }
 
