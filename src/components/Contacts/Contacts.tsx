@@ -6,7 +6,6 @@ import {Fade} from "react-awesome-reveal";
 
 export const Contacts = () => {
 
-
     return (
         <div id={'Contacts'} className={s.contactsBlock}>
             <Fade direction={"top-left"} duration={1500}  /*triggerOnce={true}*/>
@@ -34,7 +33,9 @@ export const Contacts = () => {
                     <div className={s.block}>
                         <Title title={'Contact'}/>
                         <div className={s.formAll}>
-                            <form className={s.form}>
+                            <form className={s.form} id={'form'} onSubmit={(e) => {
+                                console.log(e)
+                            }}>
                                 <label className={s.name} htmlFor="name">What is Your Name:</label>
                                 <input type={"text"} className={s.input} name={'name'} placeholder={'Name'} required/>
                                 <label className={s.name} htmlFor="email">E-mail:</label>
