@@ -25,7 +25,7 @@ export const Footer = () => {
                             <Block src={telegram}/></a>
                         <a href={'https://github.com/Sene4kaaa'}>
                             <Block src={github}/></a>
-                        <a href={'https://ru.linkedin.com/'}>
+                        <a href={'https://linkedin.com/in/andrew-senkevich-127439285'}>
                             <Block src={linkedin}/></a>
                     </div>
 
