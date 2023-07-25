@@ -33,11 +33,11 @@ export const Contacts = () => {
                     <div className={s.formAll}>
                     <form className={s.form}>
                         <label className={s.name} htmlFor="name">What is Your Name:</label>
-                        <input type={"text"} className={s.input} name={'name'}/>
+                        <input type={"text"} className={s.input} name={'name'} placeholder={'Name'}/>
                         <label className={s.name} htmlFor="email">E-mail:</label>
-                        <input type={"email"} className={s.input}  name={'name'}/>
+                        <input type={"email"} className={s.input}  name={'name'} placeholder={'Email'}/>
                         <label className={s.name} htmlFor="message">Message:</label>
-                        <textarea className={s.textarea} name={'message'} rows={3}></textarea>
+                        <textarea className={s.textarea} name={'message'} rows={3} placeholder={'Your message'}></textarea>
                         <button type={"submit"} className={s.button}>Send</button>
                     </form>
                     </div>
