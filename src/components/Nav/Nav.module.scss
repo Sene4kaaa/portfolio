@@ -5,9 +5,6 @@
   width: 400px;
   display: flex;
   justify-content: space-evenly;
-  
-
-
   & a {
     @include text($titleFontFamily, 20px, 1.2, 700);
     color: $bgColor;
