@@ -6,9 +6,6 @@ import {Fade} from "react-awesome-reveal";
 
 export const Contacts = () => {
 
-
-
-
     return (
         <div id={'Contacts'} className={s.contactsBlock}>
             <Fade direction={"top-left"} duration={1500}  /*triggerOnce={true}*/>
