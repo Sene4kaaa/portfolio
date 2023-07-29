@@ -108,10 +108,7 @@ export const Skills = () => {
                             <Skill style={css_} title={'CSS'}
                             />
                         </Tilt>
-                        <Tilt className={'Tilt'} option={{max: 25}}>
-                            <Skill style={jestt} title={'Jest'}
-                            />
-                        </Tilt>
+
                         <Tilt className={'Tilt'} option={{max: 25}}>
                             <Skill style={sass_} title={'SASS'}
                             />
@@ -122,6 +119,10 @@ export const Skills = () => {
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
                             <Skill style={storyBook_} title={'StoryBook'}
+                            />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={jestt} title={'Jest'}
                             />
                         </Tilt>
 
