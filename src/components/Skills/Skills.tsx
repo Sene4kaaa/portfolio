@@ -9,6 +9,7 @@ import toolkit from "../../assets/svg-icon/redux-toolkit.svg";
 import javascript from "../../assets/svg-icon/js-official-svgrepo-com.svg";
 import tp from "../../assets/svg-icon/typescript-svgrepo-com.svg";
 import css from "../../assets/svg-icon/css-svgrepo-com.svg";
+import jest from "../../assets/svg-icon/jest.svg";
 import sass from "../../assets/svg-icon/sass-svgrepo-com.svg";
 import storybook from "../../assets/svg-icon/storybook-icon-svgrepo-com.svg";
 import mui from "../../assets/svg-icon/material-ui-svgrepo-com.svg";
@@ -44,6 +45,12 @@ export const Skills = () => {
         color: 'blue',
         backgroundImage: `url(${css})`,
     };
+
+    const jestt: StyleType = {
+        color: 'blue',
+        backgroundImage: `url(${jest})`,
+    };
+
     const sass_: StyleType = {
         color: 'blue',
         backgroundImage: `url(${sass})`,
@@ -99,6 +106,10 @@ export const Skills = () => {
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
                             <Skill style={css_} title={'CSS'}
+                            />
+                        </Tilt>
+                        <Tilt className={'Tilt'} option={{max: 25}}>
+                            <Skill style={jestt} title={'Jest'}
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
