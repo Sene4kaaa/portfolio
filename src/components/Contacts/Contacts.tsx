@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {FormEvent, useRef} from 'react';
 import s from './Contacts.module.scss'
 import {Title} from "../../common/components/title/Title";
 import {Fade} from "react-awesome-reveal";
@@ -14,7 +14,7 @@ export const Contacts = () => {
 
         if (form.current) {
             emailjs
-                .sendForm("service_y4ligam", "template_6z7lewt", form.current, "D5ZTGJKhwMa9jY5XucDz")
+                .sendForm("service_y4ligam", "template_6z7lewt", form.current, "9kwJsUc6pZPIE6wN_")
                 .then((result: EmailJSResponseStatus) => {
                     form.current?.reset()
                 })
