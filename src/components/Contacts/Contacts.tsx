@@ -1,10 +1,25 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import s from './Contacts.module.scss'
 import {Title} from "../../common/components/title/Title";
 import {Fade} from "react-awesome-reveal";
+import emailjs, {EmailJSResponseStatus} from "@emailjs/browser"
 
 
 export const Contacts = () => {
+
+    const form = useRef<HTMLFormElement>(null)
+
+    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
+
+        if (form.current) {
+            emailjs
+                .sendForm("service_y4ligam", "template_6z7lewt", form.current, "D5ZTGJKhwMa9jY5XucDz")
+                .then((result: EmailJSResponseStatus) => {
+                    form.current?.reset()
+                })
+        }
+    }
 
     return (
         <div id={'Contacts'} className={s.contactsBlock}>
@@ -33,7 +48,7 @@ export const Contacts = () => {
                     <div className={s.block}>
                         <Title title={'Contact'}/>
                         <div className={s.formAll}>
-                            <form className={s.form} id={'form'}>
+                            <form className={s.form} id={'form'} ref={form} onSubmit={sendEmail}>
                                 <label className={s.name} htmlFor="name">What is Your Name:</label>
                                 <input type={"text"} className={s.input} name={'name'} placeholder={'Name'} required/>
                                 <label className={s.name} htmlFor="email">E-mail:</label>
