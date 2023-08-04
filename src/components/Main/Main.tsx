@@ -8,9 +8,7 @@ import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 import {Tilt} from 'react-tilt'
 import {Block} from "../Footer/Block/Block";
-import instagram from "../../assets/svg-icon/instagram-1-svgrepo-com.svg";
 import telegram from "../../assets/svg-icon/telegram-logo-svgrepo-com.svg";
-import github from "../../assets/svg-icon/github-svgrepo-com.svg";
 import linkedin from "../../assets/svg-icon/linkedin-svgrepo-com.svg";
 
 
