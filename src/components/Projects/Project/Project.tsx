@@ -18,7 +18,7 @@ export const Project = (props: ProjectPropsType) => {
         <div className={s.project}>
             <div className={s.imgAndAhref}>
                 <div className={s.icon} style={props.style}></div>
-                <a href='' className={s.watch}>Watch</a>
+                <a href='https://sene4kaaa.github.io/samurai-way-main/' className={s.watch}>Watch</a>
             </div>
             <div className={s.title_description}>
                 <h3 className={s.tittle}>
