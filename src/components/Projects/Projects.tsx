@@ -29,7 +29,6 @@ export const Projects = () => {
                 <div className={s.projects}>
                     <Project style={socialNetwork} title={'Social Network'} description={'Stack: React, Redux, Redux-Thunk, React-Router-dom, Axios, Formik, Class Components'}/>
                     <Project  style={todolist} title={'Todolist'} description={'Project description'}/>
-                    {/*<Project title={'Portfolio'} description={'Project description'}/>*/}
                 </div>
 
             </div>
