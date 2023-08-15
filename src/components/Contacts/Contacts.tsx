@@ -64,9 +64,11 @@ export const Contacts = () => {
                     </div>
                 </div>
                 <div className={s.buttonCvblock}>
+                    <a href={''}>
                     <div className={s.buttonCv}>
                         <button>Download CV</button>
                     </div>
+                    </a>
                 </div>
                 </div>
             </Fade>
