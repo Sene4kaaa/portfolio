@@ -145,13 +145,13 @@
   transition: 0.5s;
   @include text($titleFontFamily, 15px, 1.5, 700);
   font-size: 16px;
-  font-weight: 700;
+  //font-weight: 700;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 
   &:hover {
-    background-color: var(#{--iconsDefault});
+    background-color: $primaryColor;
     color: var(#{--bgPrimaryDefault});
-    border: 2px solid var(#{--iconsDefault});
+    border: 2px solid $textColor;
   }
 
   &:active {
