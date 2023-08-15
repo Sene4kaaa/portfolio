@@ -165,5 +165,37 @@
   }
 }
 
+.loadingWrapper {
+  position: absolute;
+  z-index: 1;
+  width: 105%;
+  height: 105%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -16px;
+  right: -9px;
+  border-radius: 10px;
+
+  .loading {
+    border: 3.5px solid #f5df4e;
+    border-top: 3.5px solid black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1.3s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
 
 
