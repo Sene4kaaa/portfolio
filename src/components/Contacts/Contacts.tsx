@@ -60,9 +60,10 @@ export const Contacts = () => {
                                 <button type={"submit"} className={s.button}>Send</button>
                             </form>
                         </div>
+                        <div className={s.buttonCv}>
+                            <button>Download CV</button>
+                        </div>
                     </div>
-
-
                 </div>
             </Fade>
         </div>

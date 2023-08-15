@@ -43,9 +43,6 @@ export const Main = () => {
                             <div className={s.photo} style={avatar}></div>
                         </div>
                     </Tilt>
-                    <div className={s.buttonCv}>
-                        <button>Download CV</button>
-                    </div>
                 </div>
             </Fade>
         </div>
