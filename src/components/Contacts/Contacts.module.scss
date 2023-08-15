@@ -130,7 +130,7 @@
   color: $primaryColor;
 }
 
-.formAll{
+.formAll {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -142,7 +142,7 @@
   background-color: $bgSecondColor;
   color: $textColor;
   border: 2px solid $textColor;
-  padding: 0.75rem 4.5rem;
+  padding: 12px 75px;
   transition: 0.5s;
   @include text($titleFontFamily, 17px, 1.9, 800);
 
