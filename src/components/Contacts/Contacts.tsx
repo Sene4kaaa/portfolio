@@ -24,6 +24,7 @@ export const Contacts = () => {
     return (
         <div id={'Contacts'} className={s.contactsBlock}>
             <Fade direction={"top-left"} duration={1500}  /*triggerOnce={true}*/>
+                <div>
                 <div className={s.contactsContainer}>
                     <div className={s.block}>
                         <Title title={'Let\'s get in touch'}/>
@@ -60,10 +61,13 @@ export const Contacts = () => {
                                 <button type={"submit"} className={s.button}>Send</button>
                             </form>
                         </div>
-                        <div className={s.buttonCv}>
-                            <button>Download CV</button>
-                        </div>
                     </div>
+                </div>
+                <div className={s.buttonCvblock}>
+                    <div className={s.buttonCv}>
+                        <button>Download CV</button>
+                    </div>
+                </div>
                 </div>
             </Fade>
         </div>
