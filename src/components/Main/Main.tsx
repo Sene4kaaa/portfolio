@@ -21,9 +21,9 @@ export const Main = () => {
 
     return (
 
-            <div id={'Main'} className={s.mainBlock}>
-                    <Particle/>
-                <Fade direction={"right"} duration={1500}  /*triggerOnce={true}*/>
+        <div id={'Main'} className={s.mainBlock}>
+            <Particle/>
+            <Fade direction={"right"} duration={1500}  /*triggerOnce={true}*/>
                 <div className={`${styleContainer.container} ${s.sacascsa} `}>
 
                     <div className={s.text}>
@@ -38,15 +38,17 @@ export const Main = () => {
                                 <Block src={linkedin}/></a>
                         </div>
                     </div>
-                    <Tilt className={'Tilt'} option={{max: 25} } >
+                    <Tilt className={'Tilt'} option={{max: 25}}>
                         <div className={s.photoContainer}>
                             <div className={s.photo} style={avatar}></div>
                         </div>
                     </Tilt>
-
+                    <div className={s.buttonCv}>
+                        <button>Download CV</button>
+                    </div>
                 </div>
-                </Fade>
-            </div>
+            </Fade>
+        </div>
 
     )
 }
