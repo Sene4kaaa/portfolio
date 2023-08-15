@@ -1,0 +1,21 @@
+@import "src/common/styles/sass/Variables.scss";
+@import "src/common/styles/sass/Mixins.scss";
+
+
+.wrapper {
+  position: fixed;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  background-color: $bgColor;
+  color: $textColor;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 2px $primaryColor;
+  z-index: 1;
+}

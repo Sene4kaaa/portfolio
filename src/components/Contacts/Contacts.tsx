@@ -3,6 +3,7 @@ import s from './Contacts.module.scss'
 import {Title} from "../../common/components/title/Title";
 import {Fade} from "react-awesome-reveal";
 import emailjs, {EmailJSResponseStatus} from "@emailjs/browser"
+import {Alert} from "./Alert/Alert";
 
 
 export const Contacts = () => {
@@ -20,6 +21,7 @@ export const Contacts = () => {
             emailjs
                 .sendForm("service_y4ligam", "template_6z7lewt", form.current, "9kwJsUc6pZPIE6wN_")
                 .then((result: EmailJSResponseStatus) => {
+                    setMessage("Your message has been successfully delivered.")
                     form.current?.reset()
                 })
                 .catch((error) => {
@@ -90,6 +92,7 @@ export const Contacts = () => {
                     </div>
                 </div>
             </Fade>
+            <Alert message={message}/>
         </div>
     )
 }
