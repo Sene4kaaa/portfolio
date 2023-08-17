@@ -43,8 +43,8 @@ export const Contacts = () => {
                             <div className={s.blabla}>
                                 <p>
                                     Thank you for visiting my portfolio page! If you are looking for an <span
-                                    className={s.write}>purposeful and talented front-end
-                        developer</span> who can help you create a unique and functional web interface, then you are in
+                                    className={s.write}>purposeful and able learn, adapt and grow frontend developer,
+                        </span> who can help you create a great and functional web interface, then you are in
                                     the right
                                     place.
                                 </p>
