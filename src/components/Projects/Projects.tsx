@@ -27,8 +27,8 @@ export const Projects = () => {
 
                 <Title title={'Projects'}/>
                 <div className={s.projects}>
-                    <Project style={socialNetwork} title={'Social Network'} description={'Stack: React, Redux, Redux-Thunk, React-Router-dom, Axios, Formik, Class Components'}/>
-                    <Project  style={todolist} title={'Todolist'} description={'Project description'}/>
+                    <Project style={socialNetwork} title={'Social Network'} description={'Stack: React, Redux, Redux-Thunk, React-Router-dom, Axios, Formik, Class Components'} url={'https://sene4kaaa.github.io/samurai-way-main/'}/>
+                    <Project  style={todolist} title={'Todolist'} description={'Project description'} url={'https://sene4kaaa.github.io/todolist-primary/'}/>
                 </div>
 
             </div>

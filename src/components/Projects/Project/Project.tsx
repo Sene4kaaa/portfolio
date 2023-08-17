@@ -5,6 +5,7 @@ export type ProjectPropsType = {
     title: string
     description: string
     style: StyleType
+    url: string
 }
 
 export  type StyleType = {
@@ -18,7 +19,7 @@ export const Project = (props: ProjectPropsType) => {
         <div className={s.project}>
             <div className={s.imgAndAhref}>
                 <div className={s.icon} style={props.style}></div>
-                <a href='https://sene4kaaa.github.io/samurai-way-main/' className={s.watch}>Watch</a>
+                <a href={props.url} className={s.watch}>Watch</a>
             </div>
             <div className={s.title_description}>
                 <h3 className={s.tittle}>
