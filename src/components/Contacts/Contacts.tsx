@@ -84,7 +84,7 @@ export const Contacts = () => {
                         </div>
                     </div>
                     <div className={s.buttonCvblock}>
-                        <a href={'https://drive.google.com/file/d/1jyYUuMmNPgj4LfqFrozXTlDIrn5tYis1/view?usp=sharing'}>
+                        <a href={'https://drive.google.com/file/d/1HRTh7evNIsRyKYdR5n12cAn9lt-hdPpY/view?usp=sharing'}>
                             <div className={s.buttonCv}>
                                 <button>Download CV</button>
                             </div>
