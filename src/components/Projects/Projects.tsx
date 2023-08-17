@@ -10,7 +10,6 @@ import {Fade} from "react-awesome-reveal";
 export const Projects = () => {
 
 
-
     const socialNetwork = {
         color: 'blue',
         backgroundImage: `url(${socialImage})`,
@@ -23,15 +22,20 @@ export const Projects = () => {
     return (
         <div id={'Projects'} className={s.projectsBlock}>
             <Fade direction={"right"} duration={1500} className={s.fade} triggerOnce={false}>
-            <div className={`${styleContainer.container} ${s.projectsContainer} `}>
+                <div className={`${styleContainer.container} ${s.projectsContainer} `}>
 
-                <Title title={'Projects'}/>
-                <div className={s.projects}>
-                    <Project style={socialNetwork} title={'Social Network'} description={'Stack: React, Redux, Redux-Thunk, React-Router-dom, Axios, Formik, Class Components'} url={'https://sene4kaaa.github.io/samurai-way-main/'}/>
-                    <Project  style={todolist} title={'Todolist'} description={'Project description'} url={'https://sene4kaaa.github.io/todolist-primary/'}/>
+                    <Title title={'Projects'}/>
+                    <div className={s.projects}>
+                        <Project style={socialNetwork} title={'Social Network'}
+                                 description={'Stack: React, Redux, Redux-Thunk, React-Router-dom, Axios, Formik, Class Components'}
+                                 url={'https://sene4kaaa.github.io/samurai-way-main/'}/>
+                        <Project style={todolist} title={'To-Do List'}
+                                 description={'Stack: React, Redux, Redux | Toolkit,\n' +
+                                     'TypeScript, Redux-thunk, React-Router-dom, Axios, Formik, Storybook, Postman,\n' +
+                                     'MUI, Unit tests'} url={'https://sene4kaaa.github.io/todolist-primary/'}/>
+                    </div>
+
                 </div>
-
-            </div>
             </Fade>
         </div>
     )
