@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Footer.module.scss'
 import {Block} from "./Block/Block";
 import styleContainer from "../../common/styles/Container.module.scss";
-import instagram from "../../assets/svg-icon/instagram-1-svgrepo-com.svg";
+import codewars from "../../assets/svg-icon/codewars.svg";
 import telegram from "../../assets/svg-icon/telegram-logo-svgrepo-com.svg";
 import github from "../../assets/svg-icon/github-svgrepo-com.svg";
 import linkedin from "../../assets/svg-icon/linkedin-svgrepo-com.svg";
@@ -18,8 +18,8 @@ export const Footer = () => {
                                                                                 href={'https://github.com/Sene4kaaa'}>Andrew Senkevich</a> </span>
                     </div>
                     <div className={s.icons}>
-                        <a href={'https://www.instagram.com/senkevich92_/'}>
-                            <Block src={instagram}/></a>
+                        <a href={'https://www.codewars.com/users/Sene4kaaa'}>
+                            <Block src={codewars}/></a>
                         <a href={'https://t.me/Andrew_Sene4kaa'}>
                             <Block src={telegram}/></a>
                         <a href={'https://github.com/Sene4kaaa'}>
