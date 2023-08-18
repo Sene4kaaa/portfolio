@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Main.module.scss'
 import styleContainer from '../../common/styles/Container.module.scss'
 import {StyleType} from '../Projects/Project/Project';
-import avatarka from '../../assets/image/IMG_2991.jpg'
+import avatarka from '../../assets/image/avatarka.jpg'
 import {Particle} from "../../common/components/particle/Particle";
 import {Fade} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";

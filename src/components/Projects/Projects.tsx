@@ -4,7 +4,7 @@ import styleContainer from '../../common/styles/Container.module.scss'
 import {Project} from './Project/Project';
 import {Title} from '../../common/components/title/Title';
 import todoImage from '../../assets/image/to-do-list.jpg'
-import socialImage from '../../assets/image/socialNetwork.jpg'
+import socialImage from '../../assets/image/social-network.jpg'
 import {Fade} from "react-awesome-reveal";
 
 export const Projects = () => {
