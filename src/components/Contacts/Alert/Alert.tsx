@@ -1,7 +1,6 @@
 import React, {FC, useEffect, useState} from "react"
 import s from "./Alert.module.scss"
 
-
 type Props = {
     message: string
 }

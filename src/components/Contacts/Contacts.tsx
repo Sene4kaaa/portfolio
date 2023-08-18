@@ -5,7 +5,6 @@ import {Fade} from "react-awesome-reveal";
 import emailjs, {EmailJSResponseStatus} from "@emailjs/browser"
 import {Alert} from "./Alert/Alert";
 
-
 export const Contacts = () => {
 
     const [isLoading, setIsLoading] = useState<boolean>(false)
@@ -40,7 +39,7 @@ export const Contacts = () => {
                     <div className={s.contactsContainer}>
                         <div className={s.block}>
                             <Title title={'Let\'s get in touch'}/>
-                            <div className={s.blabla}>
+                            <div className={s.summary}>
                                 <p>
                                     Thank you for visiting my portfolio page! If you are looking for an <span
                                     className={s.write}>purposeful and able learn, adapt and grow frontend developer,
