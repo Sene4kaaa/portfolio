@@ -13,7 +13,7 @@ export  type StyleType = {
 
 export const Skill = (props: SkillPropsType) => {
     return (
-        <div className={s.skill} >
+        <div className={s.skill}>
             <div className={s.icon} style={props.style}></div>
             <h3 className={s.title}>{props.title}</h3>
             <span className={s.description}>

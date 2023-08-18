@@ -23,11 +23,11 @@ import {Tilt} from 'react-tilt'
 
 export const Skills = () => {
 
-    const reactt: StyleType = {
+    const react_: StyleType = {
         color: 'blue',
         backgroundImage: `url(${react})`,
     };
-    const reactReduxx: StyleType = {
+    const reactRedux_: StyleType = {
         color: 'blue',
         backgroundImage: `url(${toolkit})`,
     };
@@ -36,7 +36,7 @@ export const Skills = () => {
         color: 'blue',
         backgroundImage: `url(${javascript})`,
     };
-    const typeScriptt: StyleType = {
+    const typeScript_: StyleType = {
         color: 'blue',
         backgroundImage: `url(${tp})`,
     };
@@ -46,7 +46,7 @@ export const Skills = () => {
         backgroundImage: `url(${css})`,
     };
 
-    const jestt: StyleType = {
+    const jest_: StyleType = {
         color: 'blue',
         backgroundImage: `url(${jest})`,
     };
@@ -67,12 +67,12 @@ export const Skills = () => {
         color: 'blue',
         backgroundImage: `url(${unittests})`,
     };
-    const postmann: StyleType = {
+    const postman_: StyleType = {
         color: 'blue',
         backgroundImage: `url(${postman})`,
     };
 
-    const gitt: StyleType = {
+    const git_: StyleType = {
         color: 'blue',
         backgroundImage: `url(${git})`,
     };
@@ -89,11 +89,11 @@ export const Skills = () => {
                     <Title title={'Skills'}/>
                     <div className={s.skills}>
                         <Tilt className={'Tilt'} option={{max: 25}}>
-                            <Skill style={reactt} title={'React'}
+                            <Skill style={react_} title={'React'}
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
-                            <Skill style={reactReduxx} title={'Redux | Toolkit'}
+                            <Skill style={reactRedux_} title={'Redux | Toolkit'}
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
@@ -101,7 +101,7 @@ export const Skills = () => {
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
-                            <Skill style={typeScriptt} title={'TypeScript'}
+                            <Skill style={typeScript_} title={'TypeScript'}
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
@@ -122,7 +122,7 @@ export const Skills = () => {
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
-                            <Skill style={jestt} title={'Jest'}
+                            <Skill style={jest_} title={'Jest'}
                             />
                         </Tilt>
 
@@ -131,11 +131,11 @@ export const Skills = () => {
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
-                            <Skill style={postmann} title={'Postman'}
+                            <Skill style={postman_} title={'Postman'}
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
-                            <Skill style={gitt} title={'Git'}
+                            <Skill style={git_} title={'Git'}
                             />
                         </Tilt>
                         <Tilt className={'Tilt'} option={{max: 25}}>
