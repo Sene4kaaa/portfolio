@@ -1,7 +1,6 @@
 import React from "react";
 import s from "./Title.module.scss"
 
-
 export type TitlePropsType = {
     title: string
 }
