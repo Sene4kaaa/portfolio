@@ -14,7 +14,6 @@
 
   .imgAndAhref {
     position: relative;
-    /*border: 1px solid chartreuse;*/
     width: 100%;
     display: flex;
     align-items: center;
@@ -41,12 +40,9 @@
       }
     }
 
-
     .watch {
       @extend .btn;
       width: 30%;
-
-
 
       &:hover {
         color: $bgColor;

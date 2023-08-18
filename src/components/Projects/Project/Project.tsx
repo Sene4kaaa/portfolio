@@ -13,7 +13,6 @@ export  type StyleType = {
     backgroundImage: string
 }
 
-
 export const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.project}>

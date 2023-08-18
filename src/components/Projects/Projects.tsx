@@ -9,15 +9,15 @@ import {Fade} from "react-awesome-reveal";
 
 export const Projects = () => {
 
-
     const socialNetwork = {
         color: 'blue',
         backgroundImage: `url(${socialImage})`,
-    };
+    }
+
     const todolist = {
         color: 'blue',
         backgroundImage: `url(${todoImage})`,
-    };
+    }
 
     return (
         <div id={'Projects'} className={s.projectsBlock}>
@@ -34,7 +34,6 @@ export const Projects = () => {
                                      'TypeScript, Redux-thunk, React-Router-dom, Axios, Formik, Storybook, Postman,\n' +
                                      'MUI, Unit tests'} url={'https://sene4kaaa.github.io/todolist-primary/'}/>
                     </div>
-
                 </div>
             </Fade>
         </div>
