@@ -3,8 +3,6 @@ import s from './RemoteWork.module.scss'
 import styleContainer from '../../common/styles/Container.module.scss'
 import {Title} from "../../common/components/title/Title";
 
-
-
 export const RemoteWork = () => {
     return (
         <div className={s.remoteWorkBlock}>
