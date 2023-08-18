@@ -11,7 +11,6 @@ import {Block} from "../Footer/Block/Block";
 import telegram from "../../assets/svg-icon/telegram-logo-svgrepo-com.svg";
 import linkedin from "../../assets/svg-icon/linkedin-svgrepo-com.svg";
 
-
 export const Main = () => {
 
     const avatar: StyleType = {
@@ -24,7 +23,7 @@ export const Main = () => {
         <div id={'Main'} className={s.mainBlock}>
             <Particle/>
             <Fade direction={"right"} duration={1500}  /*triggerOnce={true}*/>
-                <div className={`${styleContainer.container} ${s.sacascsa} `}>
+                <div className={`${styleContainer.container} ${s.mainContainer} `}>
 
                     <div className={s.text}>
                         <span>Hi There</span>

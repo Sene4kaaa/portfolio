@@ -6,55 +6,48 @@
   background-color: $bgColor;
   position: relative;
 
-.sacascsa {
-  height: calc(100vh);
+  .mainContainer {
+    height: calc(100vh);
 
-  .text {
-    /*border: 1px solid red;*/
-    width: 300px;
-    padding-top: 20px;
-    //background-color: $bgColor;
-    @include text($titleFontFamily, 20px, 1.2, 700);
-    color: $textColor;
-    z-index: 0.5;
-    margin: 30px 0;
-
-  }
-
-  .photoContainer {
-    position: relative;
-    width: 300px;
-    height: 400px;
-
-    .photo {
-      /*border: 1px solid red;*/
-      width: 100%;
-      height:100%;
-      background-size: cover;
-      //background-position: center;
-      background-repeat: no-repeat;
-      //background-color: $bgSecondColor;
-      position: absolute;
-      z-index: 1;
-
+    .text {
+      width: 300px;
+      padding-top: 20px;
+      @include text($titleFontFamily, 20px, 1.2, 700);
+      color: $textColor;
+      z-index: 0.5;
+      margin: 30px 0;
 
     }
-    &:after {
-      content: '';
-      position: absolute;
+
+    .photoContainer {
+      position: relative;
       width: 300px;
       height: 400px;
-      top: -20px;
-      right: -20px;
-      z-index: 0;
-      border: 5px solid $primaryColor;
-      //border-top: 5px solid white;
+
+      .photo {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 1;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        top: -20px;
+        right: -20px;
+        z-index: 0;
+        border: 5px solid $primaryColor;
+      }
     }
   }
 }
-}
 
-.icons{
+.icons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
