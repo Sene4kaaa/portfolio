@@ -27,7 +27,6 @@ export const Footer = () => {
                         <a href={'https://linkedin.com/in/andrew-senkevich-127439285'}>
                             <Block src={linkedin}/></a>
                     </div>
-
                 </div>
             </div>
         </div>
